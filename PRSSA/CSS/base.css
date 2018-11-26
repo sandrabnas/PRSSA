@@ -199,7 +199,7 @@ h5 {
   color: #ffffff;
 }
 
-.main-blog-container{
+.main-container{
 	box-sizing: border-box;
 
 	display: flex;
@@ -208,17 +208,12 @@ h5 {
 	flex-direction: row;
 	-webkit-flex-direction: row;
 
-	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap;
-
 	justify-content: center;
 	-webkit-justify-content: center;
 
-	margin-bottom: 8em;
-	margin-left: 4em;
 }
 
-.main-blog-title {
+.main-title {
 	background-color: #ffffff;;
 	box-sizing: border-box;
 	color: #000000;
@@ -232,64 +227,63 @@ h5 {
 	text-align: left;
 }
 
-.main-blog-pic {
+.main-pic {
   background-color: #692917;
 	box-sizing: border-box;
 	padding-top: 1em;
-	width: 350px;
-	height: 240px;
+  width:400px;
 }
 
-.main-blog-description {
+.main-description {
   background-color: #d99b64;
 	box-sizing: border-box;
 	padding-left: 2em;
 	line-height: 1.65;
+  padding-bottom: 4em;
 
-	flex-basis: 65%;
-	-webkit-flex-basis: 65%;
-
+	width:100%;
 }
 
-.main-blog-title p {
+.main-title p {
 	padding-left: 3em;
 }
 
-.main-blog h3 {
+.main h3 {
 	padding-left: 1em;
 	margin-bottom: 0;
 	text-transform: none;
 	color:  #e3752b;
 }
 
-.main-blog a {
+.main a {
 	text-decoration: none;
 
 }
-.main-blog-title h3 a {
+.main-title h3 a {
 	color: #e3752b;
 
 }
 
-.main-container {
+.second-container {
   display: flex;
   flex-direction: row;
 }
 
 
-.officers {
+.officers-title {
   background-color: #d99b64;
-  width: 300px;
+  width: 400px;
   text-align: center;
+  color: #ffffff;
 }
 
-.product {
+.officers {
   background-color: #692917;
   color: #ffffff;
   width: 100%;
 }
 
-.product-container {
+.officer-container {
 	display: flex;
 	display:-webkit-flex;
 
@@ -300,28 +294,29 @@ h5 {
 	-webkit-justify-content: space-around;
 
 	padding: 1em;
+  margin-top: 6em;
 }
 
-.product-pic img {
+.officer-pic img {
 	width: 200px;
 	height: 200px;
   margin-left: 5em;
 }
 
-.product-description {
+.officer-bio {
 	text-align: center;
 	font-size: 10px;
   color: #ffffff;
 }
 
-.product h2 {
+.officers h2 {
 	text-align: center;
 	text-transform: none;
 	color: #e3752b;
 }
 
 
-.product-description p {
+.officer-bio p {
 	padding-bottom: 5px;
 }
 
@@ -367,6 +362,38 @@ h5 {
 .blog-description p {
 	padding-bottom: 5px;
 }
+
+
+
+.hover-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+.meeting {
+    background-color:  #939598;
+    width: 400px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.networking {
+    background-color:  #939598;
+    width: 400px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.career {
+    background-color:  #939598;
+    width: 400px;
+    text-align: center;
+    color: #ffffff;
+}
+
 
 
 

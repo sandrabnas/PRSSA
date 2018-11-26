@@ -40,11 +40,11 @@ uta-logo: "http://ctec4350.mpd0269.uta.cloud/prssa-images/uta.png"
 
 /*============Body Customized==========*/
 
-.body {
+/*.body {
   margin: 1rem;
   padding: 1rem;
   line-height: normal;
-}
+}*/
 
 body {
   margin: 0;
@@ -75,7 +75,8 @@ h4 {
 }
 
 h5 {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 /*============End Body Customized==========*/
@@ -90,6 +91,7 @@ h5 {
   padding-left: 10px;
   padding-right: 10px;
   margin: 0;
+  top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -126,7 +128,7 @@ h5 {
   width: auto;
     background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/networking.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .follow {
@@ -167,7 +169,7 @@ h5 {
 /*============End Navigation==========*/
 
 
-/*============Student Frontpage==========*/
+/*===== Beginning of Index Page ======*/
 
 .prssa-bg {
   color: white;
@@ -192,4 +194,324 @@ h5 {
   margin-top: 2px;
 }
 
-/*============End  Student Frontpage==========*/
+
+
+.box-container {
+  width: auto;
+  color: #ffffff;
+}
+
+.main-container{
+	box-sizing: border-box;
+
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+
+}
+
+.main-title {
+	background-color: #ffffff;;
+	box-sizing: border-box;
+	color: #000000;
+
+	flex-direction: column;
+	-webkit-flex-direction: column;
+
+	flex-grow: 3;
+
+
+	text-align: left;
+}
+
+.main-pic {
+  background-color: #692917;
+	box-sizing: border-box;
+	padding-top: 1em;
+  width:400px;
+}
+
+.main-description {
+  background-color: #d99b64;
+	box-sizing: border-box;
+	padding-left: 2em;
+	line-height: 1.65;
+  padding-bottom: 4em;
+
+	width:100%;
+}
+
+.main-title p {
+	padding-left: 3em;
+}
+
+.main h3 {
+	padding-left: 1em;
+	margin-bottom: 0;
+	text-transform: none;
+	color:  #e3752b;
+}
+
+.main a {
+	text-decoration: none;
+
+}
+.main-title h3 a {
+	color: #e3752b;
+
+}
+
+.second-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.officers-title {
+  background-color: #d99b64;
+  width: 400px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.officers {
+  background-color: #692917;
+  color: #ffffff;
+  width: 100%;
+}
+
+.officer-container {
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	justify-content:space-between;
+	-webkit-justify-content: space-around;
+
+	padding: 1em;
+  margin-top: 6em;
+}
+
+.officer-pic img {
+	width: 200px;
+	height: 200px;
+  margin-left: 5em;
+}
+
+.officer-bio {
+	text-align: center;
+	font-size: 10px;
+  color: #ffffff;
+}
+
+.officers h2 {
+	text-align: center;
+	text-transform: none;
+	color: #e3752b;
+}
+
+
+.officer-bio p {
+	padding-bottom: 5px;
+}
+
+
+.blog {
+  background-color: #eeeeee;
+  color: #000000;
+  width: 100%;
+}
+
+.blog-container {
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row;
+	-webkit-flex-direction: row;
+
+	justify-content:space-between;
+	-webkit-justify-content: space-around;
+
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.blog-pic img {
+	width: 200px;
+	height: 200px;
+  margin-left: 5em;
+}
+
+.blog-description {
+	text-align: center;
+	font-size: 10px;
+  color: #000000;
+}
+
+.blog h2 {
+	text-align: center;
+	text-transform: none;
+	color: #e3752b;
+}
+
+
+.blog-description p {
+	padding-bottom: 5px;
+}
+
+
+
+.hover-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  background-color: #ffffff;
+
+}
+
+.hover-color {
+  background-color: #d99b64;
+  width:400px;
+  height:200px;
+}
+
+
+.meeting {
+    background-color:  #939598;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.networking {
+    background-color:  #939598;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.career {
+    background-color:  #939598;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.gallery-container {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 500px;
+  padding-bottom: 5em;
+}
+
+
+.boxes-container {
+  width: auto;
+  color: #ffffff;
+}
+
+.box-1{
+	box-sizing: border-box;
+
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row-reverse;
+	-webkit-flex-direction: row-reverse;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+
+}
+
+.box-2 {
+	background-color: #ffffff;;
+	box-sizing: border-box;
+	color: #000000;
+
+	flex-direction: column;
+	-webkit-flex-direction: column;
+
+	flex-grow: 3;
+
+
+	text-align: left;
+}
+
+.box-3 {
+  background-color: #692917;
+	box-sizing: border-box;
+	padding-top: 2em;
+  width:500px;
+  text-align: center;
+}
+
+.box-4{
+  background-color: #d99b64;
+	box-sizing: border-box;
+	padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 4em;
+
+	width:70%;
+}
+
+.box-3 p {
+	padding-left: 3em;
+}
+
+.box-2 h3 {
+	padding-left: 1em;
+	margin-bottom: 0;
+	text-transform: none;
+	color:  #e3752b;
+}
+
+.box-2 a {
+	text-decoration: none;
+
+}
+.box-3 h3 a {
+	color: #e3752b;
+
+}
+
+
+/*===== Ending of Index Page ======*/
+
+/*===== Footer ======*/
+
+.footer-extension {
+  height: 100px;
+  width: auto;
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/network.png");
+  background-repeat: no-no-repeat;
+  background-position: right;
+  top: 10px;
+}
+
+footer {
+  text-align: center;
+  color: #692917;
+  height: 20px;
+  width: auto;
+  top: 50%;
+}
+
+
+/*===== End of Footer ======*/

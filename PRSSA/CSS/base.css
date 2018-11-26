@@ -338,6 +338,7 @@ h5 {
 	-webkit-justify-content: space-around;
 
   padding-top: 4em;
+  padding-bottom: 4em;
 }
 
 .blog-pic img {
@@ -368,12 +369,24 @@ h5 {
 .hover-container {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 6em;
+  padding-bottom: 6em;
   background-color: #ffffff;
+
 }
+
+.hover-color {
+  background-color: #d99b64;
+  width:400px;
+  height:200px;
+}
+
 
 .meeting {
     background-color:  #939598;
-    width: 400px;
+    width: 200px;
+    height: 200px;
     text-align: center;
     color: #ffffff;
 }
@@ -381,7 +394,8 @@ h5 {
 
 .networking {
     background-color:  #939598;
-    width: 400px;
+    width: 200px;
+    height: 200px;
     text-align: center;
     color: #ffffff;
 }
@@ -389,13 +403,91 @@ h5 {
 
 .career {
     background-color:  #939598;
-    width: 400px;
+    width: 200px;
+    height: 200px;
     text-align: center;
     color: #ffffff;
 }
 
 
+.gallery-container {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 500px;
+  padding-bottom: 5em;
+}
 
+
+.boxes-container {
+  width: auto;
+  color: #ffffff;
+}
+
+.box-1{
+	box-sizing: border-box;
+
+	display: flex;
+	display:-webkit-flex;
+
+	flex-direction: row-reverse;
+	-webkit-flex-direction: row-reverse;
+
+	justify-content: center;
+	-webkit-justify-content: center;
+
+}
+
+.box-2 {
+	background-color: #ffffff;;
+	box-sizing: border-box;
+	color: #000000;
+
+	flex-direction: column;
+	-webkit-flex-direction: column;
+
+	flex-grow: 3;
+
+
+	text-align: left;
+}
+
+.box-3 {
+  background-color: #692917;
+	box-sizing: border-box;
+	padding-top: 2em;
+  width:500px;
+  text-align: center;
+}
+
+.box-4{
+  background-color: #d99b64;
+	box-sizing: border-box;
+	padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 4em;
+
+	width:70%;
+}
+
+.box-3 p {
+	padding-left: 3em;
+}
+
+.box-2 h3 {
+	padding-left: 1em;
+	margin-bottom: 0;
+	text-transform: none;
+	color:  #e3752b;
+}
+
+.box-2 a {
+	text-decoration: none;
+
+}
+.box-3 h3 a {
+	color: #e3752b;
+
+}
 
 
 /*===== Ending of Index Page ======*/

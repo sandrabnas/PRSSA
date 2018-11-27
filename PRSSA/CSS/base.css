@@ -77,6 +77,7 @@ h4 {
 h5 {
   font-size: 14px;
   font-weight: normal;
+  margin: 0 auto;
 }
 
 /*============End Body Customized==========*/
@@ -329,6 +330,13 @@ h5 {
   width: 100%;
 }
 
+.events-title {
+  text-align: center;
+  color: #692917;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
 .blog-container {
 	display: flex;
 	display:-webkit-flex;
@@ -497,21 +505,120 @@ h5 {
 /*===== Footer ======*/
 
 .footer-extension {
-  height: 100px;
+  height: 350px;
   width: auto;
-  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/network.png");
-  background-repeat: no-no-repeat;
-  background-position: right;
-  top: 10px;
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/network.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
 }
 
-footer {
+.footer-image {
+  height: 330px;
+  width: auto;
+}
+
+.dawg {
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 230px;
+  padding-top: 70px;
+}
+
+.meeting {
+ color: #692917;
+ background-color: white;
+ text-align: left;
+ line-height: 30px;
+}
+
+.meeting-title {
+  text-decoration: underline;
+  color: #692917;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+#footer-logo {
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/prssa.png");
+  height: 90px;
+  width: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+
+.footer-footer {
   text-align: center;
   color: #692917;
   height: 20px;
+  width: inherit;
+  position: static;
+    bottom: 0;
+    right: auto;
+    left: auto;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+  padding-left: 200px;
+}
+
+.links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #692917;
+}
+
+.links a:hover {
+  color: #00447c;
+}
+
+.social-link {
+  display: flex;
+  padding-top: 10px;
+}
+
+.social-fb {
+  flex: 2;
+  background-image: url("https://img.icons8.com/metro/98/692917/facebook.png");
+  height: 29px;
   width: auto;
-  top: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.social-fb:hover {
+  background-image: url("https://img.icons8.com/metro/98/00447c/facebook.png");
+}
+
+.social-tw {
+  flex: 1;
+  background-image: url("https://img.icons8.com/metro/104/692917/twitter.png");
+  height: 30px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.social-tw:hover {
+  background-image: url("https://img.icons8.com/metro/104/00447c/twitter.png");
 }
 
 
+
 /*===== End of Footer ======*/
+
+/*===== Other Decorations ======*/
+
+hr {
+  color: black;
+
+}
+
+/*===== End of Other Decorations ======*/

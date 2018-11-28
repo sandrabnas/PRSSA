@@ -75,7 +75,7 @@ h4 {
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: normal;
   margin: 0 auto;
 }
@@ -235,7 +235,26 @@ h5 {
 	box-sizing: border-box;
 	padding-top: 1em;
   width:400px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-display:flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: space-around;
+  -webkit-align-items: center;
 }
+
+
+.main-pic a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-pic a:hover {
+  color: #0064b1;
+}
+
 
 .main-description {
   background-color: #d99b64;
@@ -243,8 +262,12 @@ h5 {
 	padding-left: 2em;
 	line-height: 1.65;
   padding-bottom: 4em;
-
 	width:100%;
+}
+
+
+.description-orange {
+  padding: 20px 100px;
 }
 
 .main-title p {
@@ -330,11 +353,19 @@ h5 {
   width: 100%;
 }
 
+.line {
+  background-image: url("https://img.icons8.com/ios/98/692917/horizontal-line.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: auto;
+  padding-top: 30px;
+  background-position: center;
+}
+
 .events-title {
   text-align: center;
   color: #692917;
   margin: 0 auto;
-  padding-top: 20px;
 }
 
 .blog-container {
@@ -520,11 +551,14 @@ h5 {
 
 .dawg {
   font-size: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
   padding-left: 230px;
   padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    -webkit-display: flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: flex-start;
 }
 
 .meeting {
@@ -581,6 +615,7 @@ h5 {
 
 .social-link {
   display: flex;
+  -webkit-display: flex;
   padding-top: 10px;
 }
 
@@ -616,9 +651,40 @@ h5 {
 
 /*===== Other Decorations ======*/
 
-hr {
-  color: black;
+.overline {
+  text-decoration: overline;
+}
+
+
+/*===== End of Other Decorations ======*/
+
+/*===== Photos ======*/
+
+.page {
+  height: 50px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
 
 }
 
-/*===== End of Other Decorations ======*/
+.parents {
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/parent.png");
+}
+
+.parents:hover {
+  background-image: url("https://img.icons8.com/dotty/98/0064b1/family.png");
+}
+
+.donations {
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/donations.png");
+}
+
+.donations:hover {
+  background-image: url("https://img.icons8.com/dotty/98/0064b1/volunteering.png");
+}
+
+
+
+
+/*===== End of Photos ======*/

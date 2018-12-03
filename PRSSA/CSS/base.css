@@ -373,7 +373,7 @@ h5 {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 70%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -694,6 +694,8 @@ h5 {
   color: #ffffff;
 }
 
+/*-------------------- GALLERY ----------------------*/
+
 .gallery-container {
   background-color: #ffffff;
   width: 100%;
@@ -728,9 +730,27 @@ h5 {
   border: 1px solid black;
 }
 
+
+.gallery-extra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+
+.gallery {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+/*-------------------- END OF GALLERY ----------------------*/
+
+
 .boxes-container {
   width: auto;
   color: #ffffff;
+  padding-top: 150px;
 }
 
 .box-1 {

@@ -744,6 +744,7 @@ h5 {
 }
 
 
+<<<<<<< HEAD
 .gallery-extra {
   display: flex;
   flex-direction: row;
@@ -754,6 +755,8 @@ h5 {
   padding: 50px 100px;
 }
 
+=======
+>>>>>>> d2ba29de54d824f858ab6f010fb722e0d79689a4
 .gallery {
   height: 100px;
   width: 100px;
@@ -847,6 +850,57 @@ h5 {
 .box-3 h3 a {
   color: #e3752b;
 }
+
+
+
+
+.faq-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.questions {
+  width: 100%;
+}
+
+.faq-text {
+  width: 650px;
+  background-color: #692917;
+  text-align: center;
+  color: white;
+  padding-top: 10em;
+}
+
+.accordion {
+   background-color: #d99b64;
+   color: #444;
+   cursor: pointer;
+   padding: 18px;
+   width: 100%;
+   text-align: left;
+   border: none;
+   outline: none;
+   transition: 0.4s;
+}
+
+
+.accordion p {
+  font-size: 14px;
+  color: white;
+}
+
+.active, .accordion:hover {
+   background-color: #ccc;
+}
+
+
+.panel {
+   padding: 0 18px;
+   background-color: white;
+   display: none;
+   overflow: hidden;
+}
+
 
 /*===== Ending of Index Page ======*/
 /*===== Footer ======*/
@@ -983,6 +1037,51 @@ h5 {
 }
 
 /*===== End of Footer ======*/
+
+
+.parent-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+
+.cost {
+  background-color: #d99b64;
+  width: 650px;
+  height: 500px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 40px;
+}
+
+.cost h3 {
+  text-align: left;
+  margin: 1em;
+  padding-top: 2em;
+}
+
+.cost h5 {
+  padding-top: 2em;
+  margin-left: .5em;
+  text-align: left;
+}
+
+
+.stories {
+  background-color: #692917;
+  color: #ffffff;
+  width: 100%;
+}
+
+
+
+
+
 /*===== Other Decorations ======*/
 .overline {
   text-decoration: overline;

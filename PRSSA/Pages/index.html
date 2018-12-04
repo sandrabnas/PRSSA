@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../CSS/base.css">
     <title>PRSSA Website</title>
   </head>
@@ -18,12 +19,51 @@
           <a href="#gallery ">GALLERY</a>
           <a href="#contact">CONTACT</a>
         </div>
-        <div class="follow">FOLLOW US --&gt;
-          <a href="https://twitter.com/prssauta?lang=en"><div id="twitter"></div></a>
-          <a href="https://www.facebook.com/PRSSAUTA/"><div id="facebook"></div></a>
-        </div>
-      </div>
 
+        <div class="hamburger-menu-container">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">  <i class="fas fa-bars"></i></button>
+                  <div id="myDropdown" class="dropdown-content">
+                      <a href="#events">EVENTS</a>
+                      <a href="#officers">OFFICERS</a>
+                      <a href="#gallery ">GALLERY</a>
+                      <a href="#contact">CONTACT</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="follow">
+
+                  <div class="follow-inside-container">FOLLOW US --&gt;
+
+                  <a href="https://twitter.com/prssauta?lang=en"><div id="twitter"></div></a>
+                  <a href="https://www.facebook.com/PRSSAUTA/"><div id="facebook"></div></a>
+                </div>
+              </div>
+              </div>
+
+
+<script>function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+</script>
 
       <div class="prssa-bg">
         <div class="prssa-logo"></div>
@@ -49,6 +89,67 @@
                 </a>
             </div>
 						</div>
+
+
+            <div id="my-modal" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">&times;</span>
+
+                  </div>
+                  <div class="modal-main-btn-container">
+                    <div class="modal-t-button-container">
+                      <a href="" class="btn-donation-box">$5</a>
+                      <a href="" class="btn-donation-box">$10</a>
+                      <a href="" class="btn-donation-box">$15</a>
+                      <a href="" class="btn-donation-box">$20</a>
+                    </div>
+                    <div class="modal-b-button-container">
+                      <a href="" class="btn-donation-box">$25</a>
+                      <a href="" class="btn-donation-box">$50</a>
+                      <a href="" class="btn-donation-box">Other</a>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure porro exercitationem vitae consequatur repellat natus.
+
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur blancedi adipisicing elit. Blanditiis, nemo?
+
+                  </p>
+                  <button class="modal-submit-btn">
+                    Submit
+                  </button>
+                </div>
+              </div>
+
+
+<script>// Get DOM Elements
+    const modal = document.querySelector('#my-modal');
+    const modalBtn = document.getElementById('modal-btn');
+    const closeBtn = document.querySelector('.close');
+
+    // Events
+    modalBtn.addEventListener('click', openModal);
+    closeBtn.addEventListener('click', closeModal);
+    window.addEventListener('click', outsideClick);
+
+    // Open
+    function openModal() {
+      modal.style.display = 'block';
+    }
+
+    // Close
+    function closeModal() {
+      modal.style.display = 'none';
+    }
+
+    // Close If Outside Click
+    function outsideClick(e) {
+      if (e.target == modal) {
+        modal.style.display = 'none';
+      }
+    }</script>
+
 
 			<div class="main-description">
         <div class="description-orange">
@@ -159,52 +260,98 @@
 
 <div class="hover-container">
   <div class="hover-color">
+      <div class="promo-container">
     <div class="hover-detail"><p>Be a part of all of the fun and exciting meetings where you can get watch industry experts speak, and get updates on exclusive opportunities! Also attend informal social gatherings outside of school and build strong, long-lasting relationships!</p>
     </div>
     <div class="meeting"><p><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/meetings.png" class="hover"><br>Meetings <br>& Hangouts</p></div>
+    </div>
   </div>
   <div class="hover-color">
+      <div class="promo-container">
     <div class="hover-detail"><p>Meet and learn from seasoned professionals in casual, social settings, and even shadow their agencies and see them in action! Get exclusive access to guest speakers!</p>
     </div>
     <div class="networking"><p><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/networking.png" class="hover"><br>Networking</p></div>
   </div>
+</div>
   <div class="hover-color">
+      <div class="promo-container">
     <div class="hover-detail"><p>Be among the first to know about exciting internships, projects, career fairs, and big events where you can meet and network with your future employers.</p>
     </div>
     <div class="career"><p><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/career.png" class="hover"><br>Career <br>Opportunities</p></div>
   </div>
+</div>
 </div>
 
 
 
 
 <div class="gallery-container">
-  <a name="gallery">
-    <h4 class="gallery-text"><span class="overline">G</span>ALLERY</h4>
-  </a>
+    <a name="gallery">
+      <h3 class="gallery-text"><span class="overline">G</span>ALLERY</h3>
+    </a>
 
-  <div class="gallery-photo">
-    <div class="gallery-box 1">
+    <div class="gallery-photo">
+      <div class="gallery-box 1">
+      </div>
+      <div class="gallery-box 2">
+          <img src="/PRSSA/Images/img1.jpg" id="current" alt="">
+      </div>
+      <div class="gallery-box 3">
+      </div>
     </div>
-    <div class="gallery-box 2">
-    </div>
-    <div class="gallery-box 3">
-    </div>
-  </div>
 
-  <div class="gallery-extra">
-    <div class="gallery 1"></div>
-    <div class="gallery 2"></div>
-    <div class="gallery 3"></div>
-    <div class="gallery 4"></div>
-    <div class="gallery 5"></div>
-    <div class="gallery 6"></div>
-    <div class="gallery 7"></div>
-    <div class="gallery 8"></div>
-    <div class="gallery 9"></div>
-    <div class="gallery 10"></div>
+    <div class="gallery-extra">
+
+      <div class="gallery 1">
+        <img src="/PRSSA/Images/img1.jpg" alt="">
+      </div>
+      <div class="gallery 2">
+          <img src="/PRSSA/Images/img2.jpg" alt="">
+      </div>
+      <div class="gallery 3">
+          <img src="/PRSSA/Images/img3.jpg" alt="">
+      </div>
+      <div class="gallery 4">
+          <img src="img/img4.jpg" alt="">
+      </div>
+      <div class="gallery 5">
+          <img src="img/img5.jpg" alt="">
+      </div>
+      <div class="gallery 6">
+          <img src="img/img6.jpg" alt="">
+      </div>
+      <div class="gallery 7">
+          <img src="img/img7.jpg" alt="">
+      </div>
+      <div class="gallery 8">
+          <img src="img/img8.jpg" alt="">
+      </div>
+      <div class="gallery 9">
+          <img src="img/img9.jpg" alt="">
+      </div>
+      <div class="gallery 10">
+          <img src="img/img10.jpg" alt="">
+      </div>
+
+
+    </div>
+  <script>
+    const current = document.querySelector('#current');
+    const imgs = document.querySelectorAll('.gallery-extra img');
+
+  console.log('imgs');
+
+  imgs.forEach(img => img.addEventListener('click', imgClick));
+
+  function imgClick(e){
+    current.src = e.target.src;
+
+    e.target.style.opacity = opacity;
+  }
+
+  </script>
+
   </div>
-</div>
 
 
 

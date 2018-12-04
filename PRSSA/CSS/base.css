@@ -846,6 +846,12 @@ h5 {
   padding: 0 50px;
 }
 
+.gallery-photo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .gallery-box {
   height: 400px;
   width: 400px;
@@ -855,11 +861,9 @@ h5 {
 
 .gallery-extra {
   display: flex;
-  
   flex-direction: row;
   justify-content: space-between;
   padding: 50px 100px;
-   overflow-x: scroll;
 }
 
 .gallery {
@@ -870,12 +874,6 @@ h5 {
 }
 
 .gallery-extra img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.gallery-photo img{
   width: 100%;
   height: 100%;
   object-fit: cover;

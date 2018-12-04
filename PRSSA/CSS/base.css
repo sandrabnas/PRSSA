@@ -284,9 +284,26 @@ h5 {
   text-decoration: none;
 }
 
-.main-pic a:hover {
-  color: #0064b1;
+
+.page {
+  height: 50px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
 }
+
+p.parent-div {
+ font-size: 17px;
+ margin: 0;
+}
+
+.page-container:hover {
+  border: 1px solid white;
+  padding: 0 5px;
+  box-shadow: 10px 10px 5px grey;
+}
+
 
 .main-description {
   background-color: #d99b64;
@@ -1105,28 +1122,9 @@ h5 {
 
 /*===== End of Other Decorations ======*/
 /*===== Photos ======*/
-.page {
-  height: 50px;
-  width: auto;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 
-.parents {
-  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/parent.png");
-}
 
-.parents:hover {
-  background-image: url("https://img.icons8.com/dotty/98/0064b1/family.png");
-}
 
-.donations {
-  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/donations.png");
-}
-
-.donations:hover {
-  background-image: url("https://img.icons8.com/dotty/98/0064b1/volunteering.png");
-}
 
 /*===== End of Photos ======*/
 /*# sourceMappingURL=base.css.map */

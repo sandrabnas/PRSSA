@@ -443,6 +443,19 @@ h5 {
   color: #e3752b;
 }
 
+.linkedin {
+  height: 30px;
+  width: 30px;
+  background-image: url("https://img.icons8.com/color/40/ffffff/linkedin.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linkedin:hover {
+  background-image: url("https://img.icons8.com/ios/40/ffffff/linkedin.png");
+}
 
 
 /*---------END OF OFFICERS--------------*/
@@ -735,6 +748,9 @@ h5 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  -webkit-display: flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: space-between;
   padding: 50px 100px;
 }
 

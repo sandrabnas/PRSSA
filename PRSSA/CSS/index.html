@@ -1,0 +1,448 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../CSS/base.css">
+    <title>PRSSA Website</title>
+  </head>
+
+  <body>
+    <div class="background-img">
+
+      <div class="nav">
+        <div class="uta-logo"></div>
+        <div class="nav-links">
+          <a href="#events">EVENTS</a>
+          <a href="#officers">OFFICERS</a>
+          <a href="#gallery ">GALLERY</a>
+          <a href="#contact">CONTACT</a>
+        </div>
+
+        <div class="hamburger-menu-container">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">  <i class="fas fa-bars"></i></button>
+                  <div id="myDropdown" class="dropdown-content">
+                      <a href="#events">EVENTS</a>
+                      <a href="#officers">OFFICERS</a>
+                      <a href="#gallery ">GALLERY</a>
+                      <a href="#contact">CONTACT</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="follow">
+
+                  <div class="follow-inside-container">FOLLOW US --&gt;
+
+                  <a href="https://twitter.com/prssauta?lang=en"><div id="twitter"></div></a>
+                  <a href="https://www.facebook.com/PRSSAUTA/"><div id="facebook"></div></a>
+                </div>
+              </div>
+              </div>
+
+
+<script>function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+</script>
+
+      <div class="prssa-bg">
+        <div class="prssa-logo"></div>
+        <h2 id="prssa-text">Endless Possibilities</h2>
+      </div>
+    </div>
+
+
+
+    <div class="body">
+        <div class="box-container">
+     			<div class="main-container">
+
+     				<div class="main-pic">
+              <div class="page-container">
+                <a href="parents.html">
+                  <p class="parent-div"><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/parent.png" class="page">PARENTS</p>
+                </a>
+              </div>
+              <div class="page-container">
+                <a href="#">
+                  <p class="parent-div"><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/donations.png" class="page">DONATIONS</p>
+                </a>
+
+                <!--this is placeholder for donation modal popup --- do NOT delete-->
+               <!-- <button id="modal-btn" class="button">
+                    <div class="page donations"></div> <div class="page-title">DONATIONS</div>
+                  </button>-->
+            </div>
+						</div>
+
+<!--this is the modal pop up for donations-->
+            <div id="my-modal" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">&times;</span>
+
+                  </div>
+                  <div class="modal-main-btn-container">
+                    <div class="modal-t-button-container">
+                      <a href="" class="btn-donation-box">$5</a>
+                      <a href="" class="btn-donation-box">$10</a>
+                      <a href="" class="btn-donation-box">$15</a>
+                      <a href="" class="btn-donation-box">$20</a>
+                    </div>
+                    <div class="modal-b-button-container">
+                      <a href="" class="btn-donation-box">$25</a>
+                      <a href="" class="btn-donation-box">$50</a>
+                      <a href="" class="btn-donation-box">Other</a>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure porro exercitationem vitae consequatur repellat natus.
+
+                  </p>
+                  <p>Lorem ipsum dolor sit amet consectetur blancedi adipisicing elit. Blanditiis, nemo?
+
+                  </p>
+                  <button class="modal-submit-btn">
+                    Submit
+                  </button>
+                </div>
+              </div>
+
+
+<script>// Get DOM Elements
+    const modal = document.querySelector('#my-modal');
+    const modalBtn = document.getElementById('modal-btn');
+    const closeBtn = document.querySelector('.close');
+
+    // Events
+    modalBtn.addEventListener('click', openModal);
+    closeBtn.addEventListener('click', closeModal);
+    window.addEventListener('click', outsideClick);
+
+    // Open
+    function openModal() {
+      modal.style.display = 'block';
+    }
+
+    // Close
+    function closeModal() {
+      modal.style.display = 'none';
+    }
+
+    // Close If Outside Click
+    function outsideClick(e) {
+      if (e.target == modal) {
+        modal.style.display = 'none';
+      }
+    }</script>
+
+
+			<div class="main-description">
+        <div class="description-orange">
+          <h3><span class="overline">W</span>ELCOME</h3>
+  			     <h5>PRSSA is the perfect organization for any communication or business students at UTA who are looking to build their professional network, get real-world experience, and most importantly build long-lasting relationships. We are the student division of the professional organization, PRSSA and we are currently sponsored by the Fort Worth Chapter.</h5>
+        </div>
+      </div>
+		 </div>
+   </div>
+
+
+
+
+<div class="second-container">
+<div class="officers-title">
+  <h3><span class="overline">O</span>FFICERS</h3>
+  </div>
+   <div class="officers">
+ 				<div class="officer-container">
+      <a name="officers">
+ 					<div class="officer-pic">
+ 					  <a href="#"><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/awa.jpg" class="officer-img" alt=""></a>
+            <div class="officer-role">
+              <div class="text"><h4>Awa Sy</h4>President
+              awa.sy@mavs.uta.edu <a href="https://www.linkedin.com/in/awa-sy/"><div class="linkedin"></div></a></div>
+            </div>
+ 					</div>
+      </a>
+ 					<div class="officer-pic">
+ 					  <a href="#"><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/macy.jpg" class="officer-img" alt=""></a>
+            <div class="officer-role">
+              <div class="text"><h4>Macey Reed</h4>Vice President
+              macey.reed@mavs.uta.edu<a href="https://www.linkedin.com/in/macey-reed/"><div class="linkedin"></div></a></div>
+            </div>
+          </div>
+ 					<div class="officer-pic">
+ 					  <a href="#"><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/haley.png" class="officer-img" alt=""></a>
+            <div class="officer-role">
+              <div class="text"><h4>Haley Alsabrook</h4>Treasurer
+               haley.alsabrook@mavs.uta.edu<a href="https://www.linkedin.com/in/haley-alsabrook/"><div class="linkedin"></div></a></div>
+            </div>
+          </div>
+ 		  	</div>
+        <div class="officer-container">
+          <div class="officer-pic">
+ 					  <a href="#"><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/sergio.jpg" class="officer-img" alt=""></a>
+            <div class="officer-role">
+              <div class="text"><h4>Sergio Tapia</h4>National Liason
+               sergio.tapia@mavs.uta.edu<a href="https://www.linkedin.com/in/sergio-tapia-31a3b3a3/"><div class="linkedin"></div></a></div>
+            </div>
+          </div>
+ 					<div class="officer-pic">
+ 					  <a href="#"><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/luz.png" class="officer-img" alt=""></a>
+            <div class="officer-role">
+              <div class="text"><h4>Luz Verduzco</h4>Secretary
+              luz.verduzco@mavs.uta.edu<a href="https://www.linkedin.com/in/luz-verduzco-318b18141/"><div class="linkedin"></div></a></div>
+            </div>
+          </div>
+          <div class="officer-pic">
+ 					  <a href="#"><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/rikki.jpg" class="officer-img" alt=""></a>
+            <div class="officer-role">
+              <div class="text"><h4>Rikki Segura</h4>PR Director
+              rikki.segura@mavs.uta.edu <a href="https://www.linkedin.com/in/rikkisegura/"><div class="linkedin"></div></a></div>
+            </div>
+          </div>
+ 		  	</div>
+ 		</div>
+</div>
+
+
+
+<div class="blog">
+  <a name="events">
+    <div class="line"></div>
+    <h3 class="events-title">UPCOMING EVENTS</h3>
+  </a>
+
+  <div class="events-container">
+    <div class="hover-color">
+      <div class="event-current"><span class="overline"><h4 class="event-current">MARCH</h4></span><br/><h2 class="event-current">29</h2>
+      </div>
+      <div class="event-detail">Electronic entries due for Bateman Case Study Competition</div>
+    </div>
+    <div class="hover-color">
+      <div class="event-future"><span class="overline"><h4 class="event-month">APRIL</h4></span><br/><h2 class="event-month">04</h2>
+      </div>
+      <div class="event-detail">Bateman Competition First Round Judging</div>
+    </div>
+    <div class="hover-color">
+      <div class="event-future"><span class="overline"><h4 class="event-month">APRIL</h4></span><br/><h2 class="event-month">17</h2>
+      </div>
+      <div class="event-detail">Bateman Competition First Round Judging</div>
+    </div>
+    <div class="hover-color">
+      <div class="event-future"><span class="overline"><h4 class="event-month">APRIL</h4></span><br/><h2 class="event-month">29</h2>
+      </div>
+      <div class="event-detail"> Twitter Chat: Transitioning from PRSSA to PRSA</div>
+    </div>
+  </div>
+
+  <div style="text-align:center;">
+    <div class="event-btn">
+    <button class="btn left">&lt;</button><button class="btn right">&gt;</button>
+    </div>
+  </div>
+
+
+
+<div class="hover-container">
+  <div class="hover-color">
+      <div class="promo-container">
+    <div class="hover-detail"><p>Be a part of all of the fun and exciting meetings where you can get watch industry experts speak, and get updates on exclusive opportunities! Also attend informal social gatherings outside of school and build strong, long-lasting relationships!</p>
+    </div>
+    <div class="meeting"><p><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/meetings.png" class="hover"><br>Meetings <br>& Hangouts</p></div>
+    </div>
+  </div>
+  <div class="hover-color">
+      <div class="promo-container">
+    <div class="hover-detail"><p>Meet and learn from seasoned professionals in casual, social settings, and even shadow their agencies and see them in action! Get exclusive access to guest speakers!</p>
+    </div>
+    <div class="networking"><p><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/networking.png" class="hover"><br>Networking</p></div>
+  </div>
+</div>
+  <div class="hover-color">
+      <div class="promo-container">
+    <div class="hover-detail"><p>Be among the first to know about exciting internships, projects, career fairs, and big events where you can meet and network with your future employers.</p>
+    </div>
+    <div class="career"><p><img src="http://ctec4350.mpd0269.uta.cloud/prssa-images/career.png" class="hover"><br>Career <br>Opportunities</p></div>
+  </div>
+</div>
+</div>
+
+
+
+
+<div class="gallery-container">
+    <a name="gallery">
+      <h3 class="gallery-text"><span class="overline">G</span>ALLERY</h3>
+    </a>
+
+    <div class="gallery-photo">
+      <div class="gallery-box 1">
+      </div>
+      <div class="gallery-box 2">
+          <img src="/PRSSA/Images/img1.jpg" id="current" alt="">
+      </div>
+      <div class="gallery-box 3">
+      </div>
+    </div>
+
+    <div class="gallery-extra">
+
+      <div class="gallery 1">
+        <img src="/PRSSA/Images/img1.jpg" alt="">
+      </div>
+      <div class="gallery 2">
+          <img src="/PRSSA/Images/img2.jpg" alt="">
+      </div>
+      <div class="gallery 3">
+          <img src="/PRSSA/Images/img3.jpg" alt="">
+      </div>
+      <div class="gallery 4">
+          <img src="img/img4.jpg" alt="">
+      </div>
+      <div class="gallery 5">
+          <img src="img/img5.jpg" alt="">
+      </div>
+      <div class="gallery 6">
+          <img src="img/img6.jpg" alt="">
+      </div>
+      <div class="gallery 7">
+          <img src="img/img7.jpg" alt="">
+      </div>
+      <div class="gallery 8">
+          <img src="img/img8.jpg" alt="">
+      </div>
+      <div class="gallery 9">
+          <img src="img/img9.jpg" alt="">
+      </div>
+      <div class="gallery 10">
+          <img src="img/img10.jpg" alt="">
+      </div>
+
+
+    </div>
+  <script>
+    const current = document.querySelector('#current');
+    const imgs = document.querySelectorAll('.gallery-extra img');
+
+  console.log('imgs');
+
+  imgs.forEach(img => img.addEventListener('click', imgClick));
+
+  function imgClick(e){
+    current.src = e.target.src;
+
+    e.target.style.opacity = opacity;
+  }
+
+  </script>
+
+  </div>
+
+
+
+
+<div class="faq-container">
+<div class="questions">
+<button class="accordion"><p>How much are membership dues? When do I need to pay?</p></button>
+<div class="panel">
+ <p>The dues are $70 but only $60 for anyone who joins during their final semester at UTA, <b>and this will pay for an entire year of membership!</b><br><br>
+
+<i>$55 goes to PRSA National while the rest goes to our student chapter.</i><br><br>
+
+The dues are due in November or March <b>depending on which semester you join.</b><br><br>
+
+The dues must be paid in person at one of our meetings.</p>
+</div>
+
+<button class="accordion"><p>What do I actually get from being a member, aside from what is mentioned on this website?</p></button>
+<div class="panel">
+ <p>A lot of the value comes from your ability to network within the organization. Think about it this way:<br><br>
+
+Within the organization are highly-dedicated students who take their career seriously. Many of the members are involved in internships, professional networking, and entrepreneurship, and many also have mentors and peer advisors.<br><br>
+
+Therefore, by simply being around the other members, and by being active at meetings, events, and social gatherings, their connections become your connections. As a PRSSA member, you will be part of a powerful network that will keep you landing the jobs you want and the opportunities you need!<br><br>
+
+In addition, you can dramatically increase your resume value by showing your membership with PRSSA. In fact, in the communication field, your resume would be frowned upon for not having any affiliation with PRSSA at all!</p>
+</div>
+
+<button class="accordion"><p>How can I join PRSSA?</p></button>
+<div class="panel">
+ <p>You can sign up to be a member at the meetings!<br><br>
+
+Follow us on either Facebook or Twitter @PRSSAUTA to get updates on our upcoming meetings, events, and social gatherings!
+</p>
+</div>
+
+<button class="accordion"><p>Is this only for Public Relations major?</p></button>
+<div class="panel">
+ <p>No! We have students from different majors join our organization. PRSSA is truly a networking organization for anyone *interested in* in business AND communication!</p>
+</div>
+</div>
+<div class="faq-text"><h4><span class="overline">F</span>REQUENTLY<br> ASKED<br> QUESTIONS</h4></div>
+</div>
+
+
+<script src="../CSS/base.js"></script>
+
+
+
+
+</div>
+</div>
+
+  </body>
+
+<div class="footer-extension">
+
+  <div class="footer-image">
+    <div class="dawg">
+      <div class="footer-meeting">
+        <div id="footer-logo"></div>
+          <a name="contact">
+            <h5 class="meeting-title">MEETING LOCATION:</h5>
+          </a>
+            Fine Arts Bldg. Rm#122 <br/>
+            Every Other Thursday @3:30pm
+
+        <div class="social-link">
+          <a href="https://twitter.com/prssauta?lang=en"><div class="social-tw"></div></a>
+          <a href="https://www.facebook.com/PRSSAUTA/"><div class="social-fb"></div></a>
+        </div>
+      </div>
+      <div class="links">
+        <a href="#events">Events</a>
+        <a href="officers">Officers</a>
+        <a href="blog">Blog</a>
+
+    <hr align="left" width="30%">
+
+        <a href="#">Parents</a>
+        <a href="#">Donations</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-footer">
+     © 2017 by The University of Texas at Arlington Public Relations Student Society of America
+  </div>
+</div>
+</html>

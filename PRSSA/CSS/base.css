@@ -1191,9 +1191,11 @@ p.parent-div {
   background-color: #d99b64;
   width: 650px;
   height: 500px;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   padding-top: 40px;
+  padding: 30px;
+  text-align:
 }
 
 .cost h3 {
@@ -1546,3 +1548,14 @@ p.parent-div {
   }
 }
 /* end media queries*/
+
+
+
+
+
+
+
+
+/*===========================Parents Page=========================*/
+
+/*===========================End of Events Page========================*/

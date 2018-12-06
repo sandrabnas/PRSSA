@@ -848,6 +848,12 @@ p.parent-div {
 
 }
 
+@media screen and (max-width: 750px){
+  .gallery-container{
+    display: none;
+  }
+}
+
 .gallery-text {
   color: #692917;
   padding-left: 50px;
@@ -999,6 +1005,14 @@ p.parent-div {
   padding-top: 8em;
 }
 
+@media screen and (max-width: 1000px){
+  .faq-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 8em;
+  }
+}
+
 .questions {
   width: 100%;
 }
@@ -1010,6 +1024,17 @@ p.parent-div {
   color: white;
   padding-top: 9em;
   padding-left: 50px;
+}
+
+@media screen and (max-width: 1000px){
+  .faq-text {
+    padding: 0em;
+    width: 100%;
+    text-align: center;
+  }
+  .faq-text br{
+    display: none;
+  }
 }
 
 .accordion {

@@ -1279,7 +1279,9 @@ p.parent-div {
    background-color:white;
  }
 
-
+#modal-btn{
+  cursor: pointer;
+}
 
  .modal-header {
    padding: 20px;
@@ -1288,7 +1290,7 @@ p.parent-div {
  }
 
  .modal-main-btn-container{
-   display: flex;
+  /* display: flex;*/
    justify-content: center;
    flex-direction: column;
    width: 100%;

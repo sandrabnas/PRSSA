@@ -22,7 +22,7 @@
 
         <div class="hamburger-menu-container">
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">  <i class="fas fa-bars"></i></button>
+              <button onclick="myFunction()" id="dropbtn" class="dropbtn-style">  <i id="dropbtn" class="fas fa-bars"></i></button>
                   <div id="myDropdown" class="dropdown-content">
                       <a href="#events">EVENTS</a>
                       <a href="#officers">OFFICERS</a>
@@ -49,7 +49,7 @@
 
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
+  if (!event.target.matches('#dropbtn')) {
 
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var i;

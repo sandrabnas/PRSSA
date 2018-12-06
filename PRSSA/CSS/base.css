@@ -55,33 +55,36 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-size: 12px;
+  font-size: 13px;
   font-family: 'Muli', sans-serif;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Merriweather', serif;
   font-weight: bold;
+  margin: 0;
 }
 
 h1 {
-  font-size: 92.667px;
+  font-size: 5.063em;
 }
 
 h2 {
-  font-size: 55.589px;
+  font-size: 3.375em;
 }
 
 h3 {
-  font-size: 33.347px;
+  font-size: 2.25em;
+  margin-bottom: 10px;
 }
 
 h4 {
-  font-size: 20.004px;
+  font-size: 1.5em;
 }
 
 h5 {
-  font-size: 15px;
+  font-size: 1.2em;
   font-weight: normal;
   margin: 0 auto;
 }
@@ -420,7 +423,8 @@ p.parent-div {
 }
 
 .description-orange {
-  padding: 20px 100px;
+  padding: 50px 90px 10px;
+  margin: 0;
 }
 
 @media screen and (max-width: 1000px) {
@@ -780,20 +784,21 @@ p.parent-div {
 
 .hover-detail {
   background-color: #939598;
-  width: 200px;
-  height: 200px;
+  width: 210px;
+  height: 210px;
   padding: 0;
   color: #ffffff;
 }
 
 .hover-detail p {
-  padding: 15px;
+  padding: 5px;
+  padding-left: 10px;
 }
 
 .meeting {
   background-color: #d99b64;
-  width: 200px;
-  height: 200px;
+  width: 210px;
+  height: 210px;
   color: #ffffff;
 }
 
@@ -807,8 +812,8 @@ p.parent-div {
 
 .networking {
   background-color: #d99b64;
-  width: 200px;
-  height: 200px;
+  width: 210px;
+  height: 210px;
   color: #ffffff;
 }
 
@@ -822,8 +827,8 @@ p.parent-div {
 
 .career {
   background-color: #d99b64;
-  width: 200px;
-  height: 200px;
+  width: 210px;
+  height: 210px;
   color: #ffffff;
 }
 
@@ -1348,12 +1353,15 @@ p.parent-div {
 .cost {
   background-color: #d99b64;
   width: 650px;
-  height: 500px;
+  height: 380px;
   text-align: left;
   color: #ffffff;
-  padding-top: 40px;
-  padding: 30px;
-  text-align:
+  padding-top: 20px;
+}
+
+.cost p {
+  padding-left: 35px;
+  padding-right: 40px;
 }
 
 .cost h3 {

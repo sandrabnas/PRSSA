@@ -132,18 +132,24 @@ h5 {
 
 /*drop down menu test*/
 /* Dropdown Button */
-.hamburger-menu-container .dropdown .dropbtn {
+.dropbtn-style{
   background-color: rgba(0, 0, 0, 0.651);
   color:  rgba(0, 0, 0, 0.651);
   padding: 16px;
   font-size: 16px;
   border: none;
+}
+
+.hamburger-menu-container .dropdown #dropbtn {
+
   cursor: pointer;
+ 
 }
 /* the menu icon is broken and needs to be fixed */
-.hamburger-menu-container .dropdown .dropbtn i{
+.hamburger-menu-container .dropdown #dropbtn i{
   font-size: 28px;
   color: white;
+
 }
 
 /* Dropdown button on hover & focus */
@@ -1287,7 +1293,9 @@ p.parent-div {
    background-color:white;
  }
 
-
+#modal-btn{
+  cursor: pointer;
+}
 
  .modal-header {
    padding: 20px;
@@ -1296,7 +1304,7 @@ p.parent-div {
  }
 
  .modal-main-btn-container{
-   display: flex;
+  /* display: flex;*/
    justify-content: center;
    flex-direction: column;
    width: 100%;

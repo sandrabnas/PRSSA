@@ -52,14 +52,14 @@ html {
       -webkit-box-sizing: inherit;
          -moz-box-sizing: inherit;
               box-sizing: inherit;
-              
+
   }
 body {
   margin: 0;
   padding: 0;
   font-size: 12px;
   font-family: 'Muli', sans-serif;
-  
+
 }
 
 h1, h2, h3, h4 {
@@ -132,6 +132,15 @@ h5 {
   -webkit-justify-content: space-between;
   -webkit-align-items: center;
 }
+
+@media screen and (max-width: 750px){
+  .nav{
+   padding-left: 10px;
+   padding-right: 10px;
+  }
+
+}
+
 
 .nav, .nav a {
   list-style-type: none;

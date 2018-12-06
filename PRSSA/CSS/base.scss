@@ -513,6 +513,12 @@ width: 100%;
 }
 
 
+@media screen and (max-width: 1000px){
+ .hover-color{
+   width: 200px;
+ }
+}
+
 .meeting {
     background-color:  #939598;
     width: 200px;

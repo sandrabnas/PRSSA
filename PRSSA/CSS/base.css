@@ -143,7 +143,7 @@ h5 {
 .hamburger-menu-container .dropdown #dropbtn {
 
   cursor: pointer;
- 
+
 }
 /* the menu icon is broken and needs to be fixed */
 .hamburger-menu-container .dropdown #dropbtn i{
@@ -251,7 +251,7 @@ h5 {
   height: 15px;
   width: 15px;
   background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/twitter-white.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   display: inline-block;
   -webkit-display: inline-block;
@@ -518,9 +518,9 @@ p.parent-div {
 .officers-title {
   background-color: #d99b64;
   width: 650px;
-  text-align: center;
+  text-align: right;
   color: #ffffff;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -528,6 +528,15 @@ p.parent-div {
     width: 100%;
     padding: 1em 0em 1em 0em;
   }
+}
+
+.officer-h3  {
+  padding-right: 120px;
+}
+
+.officers-title p {
+  padding: 0 120px 0 50px;
+  text-align: right;
 }
 
 .officers {
@@ -717,8 +726,8 @@ p.parent-div {
 }
 
 .event-btn {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .btn {

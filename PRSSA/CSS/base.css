@@ -68,6 +68,25 @@ h1 {
   font-size: 92.667px;
 }
 
+@media screen and (max-width: 480px){
+  h1 {
+    font-size: 2.488em;
+  }
+  h2 {
+    font-size: 2.074em;
+  }
+  h3 {
+    font-size: 1.728em;
+  }
+  h4 {
+    font-size: 1.44em;
+  }
+  h5 {
+    font-size: 1.2em;
+  }
+
+}
+
 h2 {
   font-size: 55.589px;
 }
@@ -218,12 +237,19 @@ h5 {
   background-size: contain;
 }
 
+
 .background-img {
   height: 830px;
   width: auto;
   background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/networking.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 480px){
+  .background-img {
+    height: 400px;
+  }
 }
 
 .follow {
@@ -293,8 +319,23 @@ h5 {
   padding-bottom: 0px;
 }
 
+@media screen and (max-width: 480px){
+  .prssa-logo {
+    height: 120px;
+    width: 120px;
+  }
+
+}
+
 #prssa-text {
   margin-top: 2px;
+}
+
+@media screen and (max-width: 480px){
+  #prssa-text {
+    font-size: 40px;
+  }
+
 }
 
 .box-container {
@@ -416,6 +457,8 @@ p.parent-div {
 @media screen and (max-width: 1000px) {
   .main-description {
     text-align: center;
+    padding:20px;
+    padding-top: 0;
   }
 }
 
@@ -425,7 +468,7 @@ p.parent-div {
 
 @media screen and (max-width: 1000px) {
   .description-orange {
-    padding: 1em;
+    padding: 10px 50px;
   }
 }
 
@@ -519,6 +562,8 @@ p.parent-div {
   padding-top: 50px;
 }
 
+
+
 @media screen and (max-width: 1000px) {
   .officers-title {
     width: 100%;
@@ -528,11 +573,27 @@ p.parent-div {
 
 .officer-h3  {
   padding-right: 120px;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px){
+  .officer-h3 {
+    padding-right: 0;
+  }
+
 }
 
 .officers-title p {
   padding: 0 120px 0 50px;
   text-align: right;
+}
+
+@media screen and (max-width: 480px){
+  .officers-title p {
+    text-align: center;
+    padding: 0 20px 20px;
+  }
+
 }
 
 .officers {

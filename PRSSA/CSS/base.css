@@ -43,6 +43,7 @@ html {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+          overflow-x: hidden;
 }
 
   *,
@@ -51,12 +52,14 @@ html {
       -webkit-box-sizing: inherit;
          -moz-box-sizing: inherit;
               box-sizing: inherit;
+              
   }
 body {
   margin: 0;
   padding: 0;
   font-size: 12px;
   font-family: 'Muli', sans-serif;
+  
 }
 
 h1, h2, h3, h4 {
@@ -503,6 +506,14 @@ p.parent-div {
   opacity: 0.8;
 }
 
+@media screen and (max-width: 1000px){
+  .officer-role {
+    pointer-events: none;
+}
+.officer-pic{
+  pointer-events: none;
+}
+}
 .text {
   background-color: #692917;
   color: white;

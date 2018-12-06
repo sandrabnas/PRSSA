@@ -1115,7 +1115,7 @@ p.parent-div {
 /*===== Ending of Index Page ======*/
 /*===== Footer ======*/
 .footer-extension {
-  height: 320px;
+  height: 300px;
   width: auto;
   background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/network.jpg");
   background-repeat: no-repeat;
@@ -1124,7 +1124,7 @@ p.parent-div {
 }
 
 .footer-image {
-  height: 300px;
+  height: 280px;
   width: auto;
 }
 
@@ -1155,7 +1155,7 @@ p.parent-div {
   color: #692917;
   background-color: white;
   text-align: left;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .meeting-title {
@@ -1185,9 +1185,9 @@ p.parent-div {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  line-height: 35px;
+  line-height: 28px;
   padding-left: 200px;
-  padding-top: 35px;
+  padding-top: 40px;
 }
 
 .links a {
@@ -1304,6 +1304,37 @@ p.parent-div {
   width: 100%;
 }
 
+.stories h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding-left: 120px;
+}
+
+.stories-logo {
+  height: 150px;
+  width: auto;
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/prssa.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 145px;
+  margin-top: 35px;
+}
+
+.success-flex {
+  margin: 30px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  -webkit-display: flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: space-around;
+}
+
+.success {
+  height: 180px;
+  width: 180px;
+  border: 1px solid black;
+}
 
 
 

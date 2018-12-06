@@ -93,8 +93,8 @@ h5 {
   background-color: rgba(0, 0, 0, 0.651);
   height: 60px;
   width: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
   margin: 0;
   top: 20px;
   display: -webkit-box;
@@ -1115,23 +1115,28 @@ p.parent-div {
 /*===== Ending of Index Page ======*/
 /*===== Footer ======*/
 .footer-extension {
-  height: 350px;
+  height: 320px;
   width: auto;
   background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/network.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
 }
 
 .footer-image {
-  height: 330px;
+  height: 300px;
+  width: auto;
+}
+
+.footer-logo {
+  height: 80px;
   width: auto;
 }
 
 .dawg {
   font-size: 15px;
-  padding-left: 230px;
-  padding-top: 70px;
+  padding-left: 150px;
+  padding-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1160,14 +1165,6 @@ p.parent-div {
   font-weight: bold;
 }
 
-#footer-logo {
-  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/prssa.png");
-  height: 90px;
-  width: auto;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-}
 
 .footer-footer {
   text-align: center;
@@ -1190,6 +1187,7 @@ p.parent-div {
           flex-direction: column;
   line-height: 35px;
   padding-left: 200px;
+  padding-top: 35px;
 }
 
 .links a {
@@ -1259,6 +1257,14 @@ p.parent-div {
           flex-direction: row;
 }
 
+.cost-img {
+  height: 100px;
+  width: auto;
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/cost.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 10px;
+}
 
 .cost {
   background-color: #d99b64;
@@ -1266,21 +1272,29 @@ p.parent-div {
   height: 500px;
   text-align: left;
   color: #ffffff;
-  padding-top: 40px;
-  padding: 30px;
+  padding-top: 0;
   text-align: left;
 }
 
 .cost h3 {
   text-align: left;
   margin: 1em;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .cost h5 {
   padding-top: 2em;
   margin-left: .5em;
   text-align: left;
+}
+
+.cost p {
+  padding: 0 100px 0 35px;
+}
+
+.cost-text {
+  font-size: 15px;
+  line-height: normal;
 }
 
 

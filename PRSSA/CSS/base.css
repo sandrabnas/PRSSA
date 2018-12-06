@@ -1160,7 +1160,7 @@ p.parent-div {
 
 @media screen and (max-width: 1000px){
   .faq-text {
-    padding: 0em;
+    padding: 2em;
     width: 100%;
     text-align: center;
   }

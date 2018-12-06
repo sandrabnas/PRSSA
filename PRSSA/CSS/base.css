@@ -573,12 +573,12 @@ p.parent-div {
 
 .officer-h3  {
   padding-right: 120px;
-  text-align: center;
 }
 
 @media screen and (max-width: 480px){
   .officer-h3 {
     padding-right: 0;
+    text-align: center;
   }
 
 }

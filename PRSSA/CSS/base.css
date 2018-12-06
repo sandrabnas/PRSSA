@@ -71,6 +71,25 @@ h1 {
   font-size: 92.667px;
 }
 
+@media screen and (max-width: 480px){
+  h1 {
+    font-size: 2.488em;
+  }
+  h2 {
+    font-size: 2.074em;
+  }
+  h3 {
+    font-size: 1.728em;
+  }
+  h4 {
+    font-size: 1.44em;
+  }
+  h5 {
+    font-size: 1.2em;
+  }
+
+}
+
 h2 {
   font-size: 55.589px;
 }
@@ -96,8 +115,8 @@ h5 {
   background-color: rgba(0, 0, 0, 0.651);
   height: 60px;
   width: auto;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 45px;
+  padding-right: 45px;
   margin: 0;
   top: 20px;
   display: -webkit-box;
@@ -143,7 +162,7 @@ h5 {
 .hamburger-menu-container .dropdown #dropbtn {
 
   cursor: pointer;
- 
+
 }
 /* the menu icon is broken and needs to be fixed */
 .hamburger-menu-container .dropdown #dropbtn i{
@@ -221,12 +240,19 @@ h5 {
   background-size: contain;
 }
 
+
 .background-img {
   height: 830px;
   width: auto;
   background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/networking.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 480px){
+  .background-img {
+    height: 400px;
+  }
 }
 
 .follow {
@@ -251,7 +277,7 @@ h5 {
   height: 15px;
   width: 15px;
   background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/twitter-white.png");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   display: inline-block;
   -webkit-display: inline-block;
@@ -296,8 +322,23 @@ h5 {
   padding-bottom: 0px;
 }
 
+@media screen and (max-width: 480px){
+  .prssa-logo {
+    height: 120px;
+    width: 120px;
+  }
+
+}
+
 #prssa-text {
   margin-top: 2px;
+}
+
+@media screen and (max-width: 480px){
+  #prssa-text {
+    font-size: 40px;
+  }
+
 }
 
 .box-container {
@@ -419,6 +460,8 @@ p.parent-div {
 @media screen and (max-width: 1000px) {
   .main-description {
     text-align: center;
+    padding:20px;
+    padding-top: 0;
   }
 }
 
@@ -428,7 +471,7 @@ p.parent-div {
 
 @media screen and (max-width: 1000px) {
   .description-orange {
-    padding: 1em;
+    padding: 10px 50px;
   }
 }
 
@@ -525,16 +568,43 @@ p.parent-div {
 .officers-title {
   background-color: #d99b64;
   width: 650px;
-  text-align: center;
+  text-align: right;
   color: #ffffff;
-  padding-top: 40px;
+  padding-top: 50px;
 }
+
+
 
 @media screen and (max-width: 1000px) {
   .officers-title {
     width: 100%;
     padding: 1em 0em 1em 0em;
   }
+}
+
+.officer-h3  {
+  padding-right: 120px;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px){
+  .officer-h3 {
+    padding-right: 0;
+  }
+
+}
+
+.officers-title p {
+  padding: 0 120px 0 50px;
+  text-align: right;
+}
+
+@media screen and (max-width: 480px){
+  .officers-title p {
+    text-align: center;
+    padding: 0 20px 20px;
+  }
+
 }
 
 .officers {
@@ -725,8 +795,8 @@ p.parent-div {
 }
 
 .event-btn {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .btn {
@@ -1117,23 +1187,28 @@ p.parent-div {
 /*===== Ending of Index Page ======*/
 /*===== Footer ======*/
 .footer-extension {
-  height: 350px;
+  height: 300px;
   width: auto;
   background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/network.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   position: relative;
 }
 
 .footer-image {
-  height: 330px;
+  height: 280px;
+  width: auto;
+}
+
+.footer-logo {
+  height: 80px;
   width: auto;
 }
 
 .dawg {
   font-size: 15px;
-  padding-left: 230px;
-  padding-top: 70px;
+  padding-left: 150px;
+  padding-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1152,7 +1227,7 @@ p.parent-div {
   color: #692917;
   background-color: white;
   text-align: left;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .meeting-title {
@@ -1162,14 +1237,6 @@ p.parent-div {
   font-weight: bold;
 }
 
-#footer-logo {
-  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/prssa.png");
-  height: 90px;
-  width: auto;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-}
 
 .footer-footer {
   text-align: center;
@@ -1190,8 +1257,9 @@ p.parent-div {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  line-height: 35px;
+  line-height: 28px;
   padding-left: 200px;
+  padding-top: 40px;
 }
 
 .links a {
@@ -1261,6 +1329,14 @@ p.parent-div {
           flex-direction: row;
 }
 
+.cost-img {
+  height: 100px;
+  width: auto;
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/cost.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 10px;
+}
 
 .cost {
   background-color: #d99b64;
@@ -1268,21 +1344,29 @@ p.parent-div {
   height: 500px;
   text-align: left;
   color: #ffffff;
-  padding-top: 40px;
-  padding: 30px;
+  padding-top: 0;
   text-align: left;
 }
 
 .cost h3 {
   text-align: left;
   margin: 1em;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .cost h5 {
   padding-top: 2em;
   margin-left: .5em;
   text-align: left;
+}
+
+.cost p {
+  padding: 0 100px 0 35px;
+}
+
+.cost-text {
+  font-size: 15px;
+  line-height: normal;
 }
 
 
@@ -1292,6 +1376,37 @@ p.parent-div {
   width: 100%;
 }
 
+.stories h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  padding-left: 120px;
+}
+
+.stories-logo {
+  height: 150px;
+  width: auto;
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/prssa.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 145px;
+  margin-top: 35px;
+}
+
+.success-flex {
+  margin: 30px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  -webkit-display: flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: space-around;
+}
+
+.success {
+  height: 180px;
+  width: 180px;
+  border: 1px solid black;
+}
 
 
 

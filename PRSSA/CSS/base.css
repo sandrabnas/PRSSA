@@ -55,36 +55,33 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-size: 13px;
+  font-size: 12px;
   font-family: 'Muli', sans-serif;
-  line-height: 1.5;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Merriweather', serif;
   font-weight: bold;
-  margin: 0;
 }
 
 h1 {
-  font-size: 5.063em;
+  font-size: 92.667px;
 }
 
 h2 {
-  font-size: 3.375em;
+  font-size: 55.589px;
 }
 
 h3 {
-  font-size: 2.25em;
-  margin-bottom: 10px;
+  font-size: 33.347px;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 20.004px;
 }
 
 h5 {
-  font-size: 1.2em;
+  font-size: 15px;
   font-weight: normal;
   margin: 0 auto;
 }
@@ -423,8 +420,7 @@ p.parent-div {
 }
 
 .description-orange {
-  padding: 50px 90px 10px;
-  margin: 0;
+  padding: 20px 100px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -702,6 +698,7 @@ p.parent-div {
   background-color: #ffffff;
 }
 
+
 .event-detail {
   width: 150px;
   height: auto;
@@ -792,21 +789,20 @@ p.parent-div {
 
 .hover-detail {
   background-color: #939598;
-  width: 210px;
-  height: 210px;
+  width: 200px;
+  height: 200px;
   padding: 0;
   color: #ffffff;
 }
 
 .hover-detail p {
-  padding: 5px;
-  padding-left: 10px;
+  padding: 15px;
 }
 
 .meeting {
   background-color: #d99b64;
-  width: 210px;
-  height: 210px;
+  width: 200px;
+  height: 200px;
   color: #ffffff;
 }
 
@@ -820,8 +816,8 @@ p.parent-div {
 
 .networking {
   background-color: #d99b64;
-  width: 210px;
-  height: 210px;
+  width: 200px;
+  height: 200px;
   color: #ffffff;
 }
 
@@ -835,8 +831,8 @@ p.parent-div {
 
 .career {
   background-color: #d99b64;
-  width: 210px;
-  height: 210px;
+  width: 200px;
+  height: 200px;
   color: #ffffff;
 }
 
@@ -854,12 +850,12 @@ p.parent-div {
 }
 
 /*-------------------- GALLERY ----------------------*/
-.gallery-container {
-  background-color: #ffffff;
-  width: 100%;
-  height: 500px;
-  padding-bottom: 5em;
 
+
+@media screen and (max-width: 750px){
+  .gallery-container{
+    display: none;
+  }
 }
 
 .gallery-text {
@@ -915,6 +911,44 @@ p.parent-div {
   height: 100%;
   object-fit: cover;
 }
+
+
+
+
+
+
+
+/*start scrolling practice*/
+
+
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+  height: 500px;
+  display: none;
+}
+@media screen and (min-width: 900px){
+  .slideshow-container{
+    display: block;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 1000px){
+  .slideshow-container{
+    display: block;
+    max-width: 600px;
+  }
+  .gallery-photo{
+    display: none;
+  }
+  .gallery-extra{
+    display: none;
+  }
+}
+
+
+
 
 /*-------------------- END OF GALLERY ----------------------*/
 
@@ -1013,6 +1047,14 @@ p.parent-div {
   padding-top: 8em;
 }
 
+@media screen and (max-width: 1000px){
+  .faq-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 8em;
+  }
+}
+
 .questions {
   width: 100%;
 }
@@ -1024,6 +1066,17 @@ p.parent-div {
   color: white;
   padding-top: 9em;
   padding-left: 50px;
+}
+
+@media screen and (max-width: 1000px){
+  .faq-text {
+    padding: 0em;
+    width: 100%;
+    text-align: center;
+  }
+  .faq-text br{
+    display: none;
+  }
 }
 
 .accordion {
@@ -1210,15 +1263,12 @@ p.parent-div {
 .cost {
   background-color: #d99b64;
   width: 650px;
-  height: 380px;
+  height: 500px;
   text-align: left;
   color: #ffffff;
-  padding-top: 20px;
-}
-
-.cost p {
-  padding-left: 35px;
-  padding-right: 40px;
+  padding-top: 40px;
+  padding: 30px;
+  text-align: left;
 }
 
 .cost h3 {
@@ -1327,9 +1377,6 @@ p.parent-div {
 
  }
 
- .modal-t-button-container .btn-donation-box{
-
- }
 
  .modal-b-button-container{
    background: none;
@@ -1369,9 +1416,7 @@ p.parent-div {
    background: #0064b1;
  }
 
- .modal-b-button-container .btn-donation-box{
 
- }
 
 
  .modal-content p{
@@ -1555,9 +1600,7 @@ p.parent-div {
 }
 
 @media screen and (max-width: 1000px){
-  .hover-color{
 
-  }
 }
 
 .promo-container{

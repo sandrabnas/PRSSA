@@ -1,7 +1,18 @@
 /* Elastislide Style */
+
+/*
+COLORS CHART:
+burgundy: #692917
+orange-nude: #d99b64
+dark-grey: #939598
+light-grey: #eeeeee
+dark-blue: #00447c
+light-blue: #0064b1
+*/
 .es-carousel-wrapper{
-	background: #101010;
-	padding:10px 27px;
+	background: #692917;
+	padding-right: 27px;
+	padding-left: 27px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
@@ -14,7 +25,7 @@
 }
 .es-carousel{
 	overflow:hidden;
-	background:#000;
+	background:white;
 }
 .es-carousel ul{
 	display:none;
@@ -27,7 +38,7 @@
 .es-carousel ul li a{
 	display:block;
 	border-style:solid;
-	border-color:#222;
+	border-color:#d99b64;
 	opacity:0.8;
 	-webkit-touch-callout:none;
 	/* option */

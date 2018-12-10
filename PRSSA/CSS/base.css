@@ -1741,6 +1741,25 @@ p.parent-div {
   width: 100%;
   }
 }
+
+@media screen and (max-width: 480px){
+  .footer-extension {
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+  @media screen and (max-width: 480px){
+    .footer-footer {
+      display: flex;
+      flex-direction: flex;
+      align-items: center;
+      width: 100%;
+    }
+  }
+
 /* end media queries*/
 
 

@@ -1,0 +1,519 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Typography_BEM">
+	<meta name="keywords" content="HTML, Typography, BEM">
+	<meta name="author" content="Angie Dinh">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/typography_bem.css">
+	<title>typography</title>
+
+</head>
+<body>
+
+	<div class="nav">
+		<div class="uta-logo"></div>
+		<div class="nav-links">
+			<a href="../typography/typography.html">TYPOGRAPHY</a>
+			<a href="../branding/branding.html">BRANDING &amp SETUP</a>
+			<a href="../components/components.html">COMPONENTS</a>
+			<a href="../documentation/documentation.html">DOCUMENTATION</a>
+		</div>
+		<div class="follow">
+
+				<div class="follow-inside-container">FOLLOW US --&gt;
+
+				<a href="https://twitter.com/prssauta?lang=en"><div id="twitter"></div></a>
+				<a href="https://www.facebook.com/PRSSAUTA/"><div id="facebook"></div></a>
+			</div>
+		</div>
+	</div>
+
+
+<div class="body">
+
+
+
+
+
+	<h1>TYPOGRAPHY</h1>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Font</th>
+				<th>Information</th>
+				<th>URL</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Merriweather Bold</td>
+				<td>Font is declared within base.css. The font is used for headings</td>
+				<td>https://fonts.google.com/specimen/Merriweather?selection.family=Merriweather</td>
+			</tr>
+			<tr>
+				<td>Merriweather Light</td>
+				<td>Font is declared within base.css. The font is used for sub-headings</td>
+				<td>https://fonts.google.com/specimen/Merriweather?selection.family=Merriweather</td>
+			</tr>
+			<tr>
+				<td>Muli Light / Muli Bold</td>
+				<td>Font is declared within base.css. The font is used for all text except headings.</td>
+				<td>https://fonts.google.com/specimen/Muli</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<a name="headings">
+	<h2>HEADINGS</h2>
+	</a>
+
+	<div class="container">
+		<div class="main-content">
+			<div id="headings" class="content">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Heading</th>
+							<th>Example</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>h1</td>
+							<td><h1>HEADING 1</h1></td>
+						</tr>
+						<tr>
+							<td>h2</td>
+							<td><h2>HEADING 2</h2></td>
+						</tr>
+						<tr>
+							<td>h3</td>
+							<td><h3>HEADING 3</h3></td>
+						</tr>
+						<tr>
+							<td>h4</td>
+							<td><h4>HEADING 4</h4></td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="highlight">
+					<code><pre><span class="mk">&lt;h1&gt;</span>h1. Heading 1<span class="mk">&lt;/h1&gt;</span>
+<span class="mk">&lt;h2&gt;</span>h2. Heading 2<span class="mk">&lt;/h2&gt;</span>
+<span class="mk">&lt;h3&gt;</span>h3. Heading 3<span class="mk">&lt;/h3&gt;</span>
+<span class="mk">&lt;h4&gt;</span>h4. Heading 4<span class="mk">&lt;/h4&gt;</span>
+					</pre></code>
+				</div>
+			</div>
+
+<a name="customized">
+			<h3>CUSTOMIZED</h3>
+</a>
+			<table class="table">
+					<thead>
+						<tr>
+							<th>Heading</th>
+							<th>Example</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>p.h1</td>
+							<td><p class="h1">HEADING 1</p></td>
+						</tr>
+						<tr>
+							<td>p.h2</td>
+							<td><p class="h2">HEADING 2</p></td>
+						</tr>
+						<tr>
+							<td>p.h3</td>
+							<td><p class="h3">HEADING 3</p></td>
+						</tr>
+						<tr>
+							<td>p.h4</td>
+							<td><p class="h4">HEADING 4</p></td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="highlight">
+					<code><pre><span class="mk">&lt;p <span class="class">class=</span><span class="display">&quot;h1&quot;</span>&gt;</span>h1. Heading 1<span class="mk">&lt;/p&gt;</span>
+<span class="mk">&lt;p <span class="class">class=</span><span class="display">&quot;h2&quot;</span>&gt;</span>h1. Heading 2<span class="mk">&lt;/p&gt;</span>
+<span class="mk">&lt;p <span class="class">class=</span><span class="display">&quot;h3&quot;</span>&gt;</span>h3. Heading 3<span class="mk">&lt;/p&gt;</span>
+<span class="mk">&lt;p <span class="class">class=</span><span class="display">&quot;h4&quot;</span>&gt;</span>h4. Heading 4<span class="mk">&lt;/p&gt;</span>
+					</pre></code>
+				</div>
+<a name="display">
+			<h3>DISPLAY HEADINGS</h3>
+</a>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Heading</th>
+							<th>Example</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>h1.display-1</td>
+							<td><h1 class="display-1">Heading 1</h1></td>
+						</tr>
+						<tr>
+							<td>h1.display-2</td>
+							<td><h2 class="display-2">Heading 2</h2></td>
+						</tr>
+						<tr>
+							<td>h1.display-3</td>
+							<td><h3 class="display-3">Heading 3</h3></td>
+						</tr>
+						<tr>
+							<td>h1.display-4</td>
+							<td><h4 class="display-4">Heading 4</h4></td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="highlight">
+					<code><pre><span class="mk">&lt;h1 <span class="class">class=</span><span class="display">&quot;display-1&quot;</span>&gt;</span>h1. Heading 1<span class="mk">&lt;/h1&gt;</span>
+<span class="mk">&lt;h2 <span class="class">class=</span><span class="display">&quot;display-2&quot;</span>&gt;</span>h1. Heading 2<span class="mk">&lt;/h2&gt;</span>
+<span class="mk">&lt;h3 <span class="class">class=</span><span class="display">&quot;display-3&quot;</span>&gt;</span>h3. Heading 3<span class="mk">&lt;/h3&gt;</span>
+<span class="mk">&lt;h4 <span class="class">class=</span><span class="display">&quot;display-4&quot;</span>&gt;</span>h4. Heading 4<span class="mk">&lt;/h4&gt;</span>
+					</pre></code>
+				</div>
+
+
+<a name="inlinetext">
+				<h2>INLINE TEXT ELEMENTS</h2>
+</a>
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Heading</th>
+								<th>Example</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>&lt;mark&gt;</td>
+								<td><p>The quick brown fox <mark>jumped</mark> over the lazy dog</p></td>
+							</tr>
+							<tr>
+								<td>&lt;s&gt;,&lt;del&gt;</td>
+								<td><p><s>The quick brown fox jumped over the lazy dog</s></p></td>
+							</tr>
+							<tr>
+								<td>&lt;u&gt;</td>
+								<td><p>The <u> quick brown</u> fox jumped over the lazy dog</p></td>
+							</tr>
+							<tr>
+								<td>&lt;b&gt;,&lt;strong&gt;</td>
+								<td><p>The quick brown fox jumped over the <strong>lazy dog</strong></p></td>
+							</tr>
+							<tr>
+								<td>&lt;i&gt;,&lt;em&gt;</td>
+								<td><p><em>The quick brown fox jumped over the lazy dog</em></p></td>
+							</tr>
+							<tr>
+								<td>&lt;q&gt;</td>
+								<td><p><q>The quick brown <q>fox jumped</q> over the lazy dog</q></p></td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="highlight">
+						<code><pre><span class="mk">&lt;p&gt;</span>The quick brown fox <span class="mk">&lt;mark&gt;</span>jumped<span class="mk">&lt;/mark&gt;</span> over the lazy dog<span class="mk">&lt;/p&gt;</span>
+<span class="mk">&lt;p&gt;&lt;s&gt;</span>The quick brown fox jumped over the lazy dog<span class="mk">&lt;/s&gt;&lt;/p&gt;</span>
+<span class="mk">&lt;p&gt;</span>The <span class="mk">&lt;u&gt;</span>quick brown<span class="mk">&lt;/u&gt;</span> fox jumped over the lazy dog<span class="mk">&lt;/p&gt;</span>
+<span class="mk">&lt;p&gt;</span>The quick brown fox jumped over the <span class="mk">&lt;strong&gt;</span>lazy dog<span class="mk">&lt;/strong&gt;&lt;/p&gt;</span>
+<span class="mk">&lt;p&gt;&lt;em&gt;</span>The quick brown fox jumped over the lazy dog<span class="mk">&lt;/em&gt;&lt;/p&gt;</span>
+<span class="mk">&lt;p&gt;&lt;q&gt;</span>The quick brown <span class="mk">&lt;q&gt;</span>fox jumped<span class="mk">&lt;q&gt;</span> over the lazy dog<span class="mk">&lt;/q&gt;&lt;/p&gt;</span>
+						</pre></code>
+					</div>
+<a name="blockquotes">
+<h2>INLINE TEXT ELEMENTS</h2>
+</a>
+			</div>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Example</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<blockquote class="blockquote">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+							</blockquote>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+				<div class="highlight">
+					<code><pre><span class="mk">&lt;blockquote <span class="class">class=</span><span class="display">&quot;blockquote&quot;</span>&gt;</span>
+   <span class="mk">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.<span class="mk">&lt;/p&gt;</span>
+   <span class="mk">&lt;footer <span class="class">class=</span><span class="display">&quot;blockquote-footer&quot;</span>&gt;</span>Someone famous in <span class="mk">&lt;cite <span class="class">title=</span><span class="display">&quot;Source Title&quot;</span></span>Source Title<span class="mk">&lt;cite&gt;&lt;/footer&gt;</span>
+<span class="mk">&lt;/blockquote&gt;</span>
+					</pre></code>
+				</div>
+				</div>
+
+<a name="alignment">
+<h3>ALIGNMENT</h3>
+</a>
+<h4>CENTER ALIGNED</h4>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Example</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+						<td>
+				<blockquote class="blockquote text-center">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+					<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+				</blockquote>
+			</td>
+		</tr>
+			</tbody>
+		</table>
+		<div class="highlight">
+			<code><pre><span class="mk">&lt;blockquote <span class="class">class=</span><span class="display">&quot;blockquote text-center&quot;</span>&gt;</span>
+   <span class="mk">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.<span class="mk">&lt;/p&gt;</span>
+   <span class="mk">&lt;footer <span class="class">class=</span><span class="display">&quot;blockquote-footer&quot;</span>&gt;</span>Someone famous in <span class="mk">&lt;cite <span class="class">title=</span><span class="display">&quot;Source Title&quot;</span>&gt;</span>Source Title<span class="mk">&lt;/cite&gt;&lt;/footer&gt;</span>
+<span class="mk">&lt;/blockquote&gt;</span>
+			</pre></code>
+		</div>
+
+		<h4>RIGHT ALIGNED</h4>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Example</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+								<td>
+						<blockquote class="blockquote text-right">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+							<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+						</blockquote>
+					</td>
+				</tr>
+					</tbody>
+				</table>
+				<div class="highlight">
+					<code><pre><span class="mk">&lt;blockquote <span class="class">class=</span><span class="display">&quot;blockquote text-right&quot;</span>&gt;</span>
+   <span class="mk">&lt;p&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.<span class="mk">&lt;/p&gt;</span>
+   <span class="mk">&lt;footer <span class="class">class=</span><span class="display">&quot;blockquote-footer&quot;</span>&gt;</span>Someone famous in <span class="mk">&lt;cite <span class="class">title=</span><span class="display">&quot;Source Title&quot;</span>&gt;</span>Source Title<span class="mk">&lt;/cite&gt;&lt;/footer&gt;</span>
+<span class="mk">&lt;/blockquote&gt;</span>
+					</pre></code>
+				</div>
+
+
+<a name="lists">
+<h2>LISTS</h2>
+</a>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Example</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+			<ul>
+				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+				<li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					<ul>
+						<li>Ut enim ad minim veniam, quis nostrud exercitation.</li>
+						<li>Tullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+						<li>Duis aute irure dolor in reprehenderit in voluptate velit esse.
+							<ul>
+								<li>Cillum dolore eu fugiat nulla pariatur.</li>
+								<li>Excepteur sint occaecat cupidatat non proident.</li>
+								<li>Sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+							</ul>
+						</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+						<li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+					</ul>
+				</li>
+				<li>Ut enim ad minim veniam, quis nostrud exercitation.</li>
+				<li>Tullamco laboris nisi ut aliquip ex ea commodo consequat.
+					<ul>
+						<li>Duis aute irure dolor in reprehenderit in voluptate velit esse.</li>
+						<li>Cillum dolore eu fugiat nulla pariatur.</li>
+					</ul>
+				</li>
+			</ul>
+		</td>
+	</tr>
+		</tbody>
+	</table>
+	<div class="highlight">
+		<code><pre><span class="mk">&lt;ul&gt;</span>
+     <span class="mk">&lt;li&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span class="mk">&lt;/li&gt;</span>
+     <span class="mk">&lt;li&gt;</span>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+       <span class="mk">&lt;ul&gt;</span>
+             <span class="mk">&lt;li&gt;</span>Ut enim ad minim veniam, quis nostrud exercitation.<span class="mk">&lt;/li&gt;</span>
+             <span class="mk">&lt;li&gt;</span>Tullamco laboris nisi ut aliquip ex ea commodo consequat.<span class="mk">&lt;/li&gt;</span>
+             <span class="mk">&lt;li&gt;</span>Duis aute irure dolor in reprehenderit in voluptate velit esse.
+                  <span class="mk">&lt;ul&gt;</span>
+                       <span class="mk">&lt;li&gt;</span>Cillum dolore eu fugiat nulla pariatur.<span class="mk">&lt;/li&gt;</span>
+                       <span class="mk">&lt;li&gt;</span>Excepteur sint occaecat cupidatat non proident.<span class="mk">&lt;/li&gt;</span>
+                       <span class="mk">&lt;li&gt;</span>Sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="mk">&lt;/li&gt;</span>
+                  <span class="mk">&lt;/ul&gt;</span>
+             <span class="mk">&lt;/li&gt;</span>
+             <span class="mk">&lt;li&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span class="mk">&lt;/li&gt;</span>
+             <span class="mk">&lt;li&gt;</span>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="mk">&lt;/li&gt;</span>
+       <span class="mk">&lt;/ul&gt;</span>
+     <span class="mk">&lt;/li&gt;</span>
+     <span class="mk">&lt;li&gt;</span>Ut enim ad minim veniam, quis nostrud exercitation.<span class="mk">&lt;/li&gt;</span>
+     <span class="mk">&lt;li&gt;</span>Tullamco laboris nisi ut aliquip ex ea commodo consequat.
+             <span class="mk">&lt;ul&gt;</span>
+                  <span class="mk">&lt;li&gt;</span>Duis aute irure dolor in reprehenderit in voluptate velit esse.<span class="mk">&lt;/li&gt;</span>
+                  <span class="mk">&lt;li&gt;</span>Cillum dolore eu fugiat nulla pariatur.<span class="mk">&lt;/li&gt;</span>
+             <span class="mk">&lt;/ul&gt;</span>
+     <span class="mk">&lt;/li&gt;</span>
+<span class="mk">&lt;/ul&gt;</span></pre></code></div>
+
+<a name="unstyled">
+<h3>UNSTYLED</h3>
+</a>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Example</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+			<ul class="list-unstyle">
+				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+				<li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					<ul>
+						<li>Ut enim ad minim veniam, quis nostrud exercitation.</li>
+						<li>Tullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+						<li>Duis aute irure dolor in reprehenderit in voluptate velit esse.
+							<ul>
+								<li>Cillum dolore eu fugiat nulla pariatur.</li>
+								<li>Excepteur sint occaecat cupidatat non proident.</li>
+								<li>Sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+							</ul>
+						</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+						<li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+					</ul>
+				</li>
+				<li>Ut enim ad minim veniam, quis nostrud exercitation.</li>
+				<li>Tullamco laboris nisi ut aliquip ex ea commodo consequat.
+					<ul>
+						<li>Duis aute irure dolor in reprehenderit in voluptate velit esse.</li>
+						<li>Cillum dolore eu fugiat nulla pariatur.</li>
+					</ul>
+				</li>
+			</ul>
+		</td>
+	</tr>
+		</tbody>
+	</table>
+	<div class="highlight">
+		<code><pre><span class="mk">&lt;ul <span class="class">class=</span><span class="display">&quot;list-unstyle&quot;</span>&gt;</span>
+     <span class="mk">&lt;li&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span class="mk">&lt;/li&gt;</span>
+     <span class="mk">&lt;li&gt;</span>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+       <span class="mk">&lt;ul&gt;</span>
+             <span class="mk">&lt;li&gt;</span>Ut enim ad minim veniam, quis nostrud exercitation.<span class="mk">&lt;/li&gt;</span>
+             <span class="mk">&lt;li&gt;</span>Tullamco laboris nisi ut aliquip ex ea commodo consequat.<span class="mk">&lt;/li&gt;</span>
+             <span class="mk">&lt;li&gt;</span>Duis aute irure dolor in reprehenderit in voluptate velit esse.
+                  <span class="mk">&lt;ul&gt;</span>
+                       <span class="mk">&lt;li&gt;</span>Cillum dolore eu fugiat nulla pariatur.<span class="mk">&lt;/li&gt;</span>
+                       <span class="mk">&lt;li&gt;</span>Excepteur sint occaecat cupidatat non proident.<span class="mk">&lt;/li&gt;</span>
+                       <span class="mk">&lt;li&gt;</span>Sunt in culpa qui officia deserunt mollit anim id est laborum.<span class="mk">&lt;/li&gt;</span>
+                  <span class="mk">&lt;/ul&gt;</span>
+             <span class="mk">&lt;/li&gt;</span>
+             <span class="mk">&lt;li&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span class="mk">&lt;/li&gt;</span>
+             <span class="mk">&lt;li&gt;</span>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<span class="mk">&lt;/li&gt;</span>
+       <span class="mk">&lt;/ul&gt;</span>
+     <span class="mk">&lt;/li&gt;</span>
+     <span class="mk">&lt;li&gt;</span>Ut enim ad minim veniam, quis nostrud exercitation.<span class="mk">&lt;/li&gt;</span>
+     <span class="mk">&lt;li&gt;</span>Tullamco laboris nisi ut aliquip ex ea commodo consequat.
+             <span class="mk">&lt;ul&gt;</span>
+                  <span class="mk">&lt;li&gt;</span>Duis aute irure dolor in reprehenderit in voluptate velit esse.<span class="mk">&lt;/li&gt;</span>
+                  <span class="mk">&lt;li&gt;</span>Cillum dolore eu fugiat nulla pariatur.<span class="mk">&lt;/li&gt;</span>
+             <span class="mk">&lt;/ul&gt;</span>
+     <span class="mk">&lt;/li&gt;</span>
+<span class="mk">&lt;/ul&gt;</span></pre></code></div>
+
+<a name="inline">
+<h4>INLINE</h4>
+</a>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Example</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<ul class="list-inline">
+						<li>Nam rutrum fermentum commodo.</li>
+						<li>Sed quam mauris, ultricies vitae tincidunt at.</li>
+						<li>Excepteur sint occaecat cupidatat.</li>
+					</ul>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<div class="highlight">
+		<code><pre><span class="mk">&lt;ul <span class="class">class=</span><span class="display">&quot;list-inline&quot;</span>&gt;</span>
+	<span class="mk">&lt;li&gt;</span>Nam rutrum fermentum commodo.<span class="mk">&lt;/li&gt;</span>
+	<span class="mk">&lt;li&gt;</span>Sed quam mauris, ultricies vitae tincidunt at.<span class="mk">&lt;/li&gt;</span>
+	<span class="mk">&lt;li&gt;</span>Excepteur sint occaecat cupidatat.<span class="mk">&lt;/li&gt;</span>
+<span class="mk">&lt;/ul&gt;</span></pre></code>
+	</div>
+</div>
+</body>
+
+<div class="footer-extension">
+  <div class="footer-image">
+    <div class="dawg">
+      <div class="footer-meeting">
+        <div id="footer-logo"></div>
+          <a name="contact">
+            <h5 class="meeting-title">MEETING LOCATION:</h5>
+          </a>
+            Fine Arts Bldg. Rm#122 <br/>
+            Every Other Thursday @3:30pm
+
+        <div class="social-link">
+          <a href="https://twitter.com/prssauta?lang=en"><div class="social-tw"></div></a>
+          <a href="https://www.facebook.com/PRSSAUTA/"><div class="social-fb"></div></a>
+        </div>
+      </div>
+      <div class="links">
+        <a href="#events">Events</a>
+        <a href="officers">Officers</a>
+        <a href="blog">Blog</a>
+
+    <hr align="left" width="30%">
+
+        <a href="#">Parents</a>
+        <a href="#">Donations</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-footer">
+     © 2017 by The University of Texas at Arlington Public Relations Student Society of America
+  </div>
+</div>
+
+</html>

@@ -1,0 +1,430 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Branding">
+	<meta name="keywords" content="HTML, Branding">
+	<meta name="author" content="Angie Dinh">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/branding.css">
+	<title>branding</title>
+
+</head>
+<body>
+
+	<div class="nav">
+		<div class="uta-logo"></div>
+		<div class="nav-links">
+			<a href="../typography/typography.html">TYPOGRAPHY</a>
+			<a href="../branding/branding.html">BRANDING &amp SETUP</a>
+			<a href="../components/components.html">COMPONENTS</a>
+			<a href="../documentation/documentation.html">DOCUMENTATION</a>
+		</div>
+		<div class="follow">
+
+				<div class="follow-inside-container">FOLLOW US --&gt;
+
+				<a href="https://twitter.com/prssauta?lang=en"><div id="twitter"></div></a>
+				<a href="https://www.facebook.com/PRSSAUTA/"><div id="facebook"></div></a>
+			</div>
+		</div>
+	</div>
+
+
+	</div>
+
+	<h1>BRANDING</h1>
+	<h2>COLOR SCHEME</h2>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Color</th>
+				<th>Declarations</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><div class="box one"></div></td>
+				<td><h4>PRIMARY COLOR</h4>
+					Hexadecimal: #00447c <br />
+					RGB: 0, 68, 124 <br />
+					CMYK: 100, 45, 0, 51
+				</td>
+			</tr>
+			<tr>
+				<td><div class="box two"></div></td>
+				<td><h4>Secondary Color</h4>
+					Hexadecimal: #d99b64 <br />
+					RGB: 	217, 155, 100 <br />
+					CYMK: 0, 29, 54, 15
+				</td>
+
+			</tr>
+			<tr>
+				<td><div class="box three"></div></td>
+				<td><h4>Terciary Color</h4>
+					Hexadecimal: #692917 <br />
+					RGB: 105, 41, 23 <br />
+					CMYK: 0, 61, 78, 59
+				</td>
+			</tr>
+			<tr>
+				<td><div class="box four"></div></td>
+				<td><h4>Complimentary Dark Color</h4>
+					Hexadecimal: ##939598 <br />
+					RGB: 	147, 149, 152 <br />
+					RGBA: 3, 2, 0, 40
+				</td>
+			</tr>
+			<tr>
+				<td><div class="box five"></div></td>
+				<td><h4>Complimentary Light Color</h4>
+					Hexadecimal: #eeeeee <br />
+					RGB: 	238, 238, 238 <br />
+					RGBA: 0, 0, 0, 7
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+<a name="markup">
+	<h2>MARKUP</h2>
+</a>
+	<h3>BASIC PAGE TEMPLATE</h3>
+
+	<div class="highlight">
+		<code><pre><span class="mk">&lt;p <span class="class">class=</span><span class="display">&quot;h1&quot;</span>&gt;</span>h1. Heading 1<span class="mk">&lt;/p&gt;</span>
+	<span class="mk">&lt;p <span class="class">class=</span><span class="display">&quot;h2&quot;</span>&gt;</span>h1. Heading 2<span class="mk">&lt;/p&gt;</span>
+	<span class="mk">&lt;p <span class="class">class=</span><span class="display">&quot;h3&quot;</span>&gt;</span>h3. Heading 3<span class="mk">&lt;/p&gt;</span>
+	<span class="mk">&lt;p <span class="class">class=</span><span class="display">&quot;h4&quot;</span>&gt;</span>h4. Heading 4<span class="mk">&lt;/p&gt;</span>
+		</pre></code>
+	</div>
+
+
+
+<a name="basiccontent">
+			<h3>BASIC CONTENT STRUCTURE</h3>
+</a>
+			<h4>FULL WIDTH CONTAINER</h4>
+				<div class="highlight">
+					<code><pre><span class="mk">&lt;div<span class="class"> class=</span><span class="display">&quot;full-container&quot;</span>&gt;</span>
+ ...
+<span class="mk">&lt;/div&gt;</span>
+					</pre></code>
+				</div>
+			<h4>CONTAINER</h4>
+				<div class="highlight">
+					<code><pre><span class="mk">&lt;div<span class="class"> class=</span><span class="display">&quot;container&quot;</span>&gt;</span>
+ ...
+<span class="mk">&lt;/div&gt;</span>
+					</pre></code>
+				</div>
+			<h4>FULL WIDTH CONTAINER</h4>
+				<div class="highlight">
+					<code><pre><span class="mk">&lt;div<span class="class"> class=</span><span class="display">&quot;container&quot;</span>&gt;</span>
+ <span class="mk">&lt;div<span class="class"> class=</span><span class="display">&quot;main-content&quot;</span>&gt;</span>
+  ...
+ <span class="mk">&lt;/div&gt;</span>
+ <span class="mk">&lt;div<span class="class"> class=</span><span class="display">&quot;sidebar&quot;</span>&gt;</span>
+  ...
+ <span class="mk">&lt;/div&gt;</span>
+<span class="mk">&lt;/div&gt;</span>
+					</pre></code>
+				</div>
+
+<a name="button">
+			<h3>BUTTONS</h3>
+</a>
+			<h4>STANDARD</h4>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>TYPE</th>
+							<th>EXAMPLE</th>
+							<th>MARKUP</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Primary Button</td>
+							<td><a href="#" class="btn primary-btn">Primary Button</a></td>
+							<td>&lt;a href=&quot;#&quot; class=&quot;btn primary-btn&quot;&gt;Primary Button&lt;/a&gt;</td>
+						</tr>
+						<tr>
+							<td>Secondary Button</td>
+							<td><a href="#" class="btn secondary-btn">Secondary Button</a></td>
+							<td>&lt;a href=&quot;#&quot; class=&quot;btn secondary-btn&quot;&gt;Secondary Button&lt;/a&gt;</td>
+						</tr>
+						<tr>
+							<td>Terciary Button</td>
+							<td><a href="#" class="btn terciary-btn">Terciary Button</a></td>
+							<td>&lt;a href=&quot;#&quot; class=&quot;btn terciary-btn&quot;&gt;Terciary Button&lt;/a&gt;</td>
+						</tr>
+					</tbody>
+				</table>
+
+			<h4>CUSTOM SIZES</h4>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Class Modifier</th>
+							<th>Example</th>
+							<th>Markup</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>xs-btn</td>
+							<td><a href="#" class="btn primary-btn xs-btn">Primary Button</a></td>
+							<td>&lt;a href=&quot;#&quot; class=&quot;btn primary-btn xs-btn&quot;&gt;Primary Button&lt;/a&gt;</td>
+						</tr>
+						<tr>
+							<td>sm-btn</td>
+							<td><a href="#" class="btn primary-btn sm-btn">Primary Button</a></td>
+							<td>&lt;a href=&quot;#&quot; class=&quot;btn primary-btn sm-btn&quot;&gt;Primary Button&lt;/a&gt;</td>
+						</tr>
+						<tr>
+							<td>(No Modifier)</td>
+							<td><a href="#" class="btn primary-btn">Primary Button</a></td>
+							<td>&lt;a href=&quot;#&quot; class=&quot;btn primary-btn&quot;&gt;Primary Button&lt;/a&gt;</td>
+						</tr>
+						<tr>
+							<td>lg-btn</td>
+							<td><a href="#" class="btn primary-btn lg-btn">Primary Button</a></td>
+							<td>&lt;a href=&quot;#&quot; class=&quot;btn primary-btn lg-btn&quot;&gt;Primary Button&lt;/a&gt;</td>
+						</tr>
+						<tr>
+							<td>xl-btn</td>
+							<td><a href="#" class="btn primary-btn xl-btn">Primary Button</a></td>
+							<td>&lt;a href=&quot;#&quot; class=&quot;btn primary-btn xl-btn&quot;&gt;Primary Button&lt;/a&gt;</td>
+						</tr>
+					</tbody>
+				</table>
+
+<a name="forms">
+				<h2>FORMS</h2>
+</a>
+<h3>BASIC FORMS</h3>
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Example</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<form>
+									      <div class="form-group">
+									        <label for="Username">Username:</label>
+													<div class="form-group">
+									        <input type="text" name="Username" id="Username" placeholder="Username" />
+									      </div>
+											</div>
+									<br />
+
+									      <div class="form-group">
+									        <label for="Email">Email:</label>
+												<div class="form-group">
+									      	<input type="email" name="Email" id="Email" placeholder="Email" />
+									      </div>
+											</div>
+									<br />
+
+									      <div class="form-group">
+									        <label for="Password">Password:</label>
+												<div class="form-group">
+									      	<input type="password" name="Password" id="Password" placeholder="Password" />
+									      </div>
+											</div>
+									<br />
+												<div class="form-group">
+													<p>What would be the best way to reach you by?</p>
+												<div class="form-check">
+														<input type="radio" name="comm" id="ways" value="homephone"/>Homephone
+												</div>
+												<div class="form-check">
+														<input type="radio" name="comm" value="cell"/>Cellphone
+												</div>
+												<div class="form-check">
+														<input type="radio" name="comm" value="fax"/>Fax
+												</div>
+												<div class="form-check">
+														<input type="radio" name="comm" value="email"/>Email
+												</div>
+												<div class="form-check">
+														<input type="radio" name="comm" value="mail"/>Mail
+											</div>
+										</div>
+										<div class="form-group">
+											<button type="submit" class="btn primary-btn">Submit</button>
+										</div>
+								</form>
+							</td>
+						</tr>
+					</tbody>
+					</table>
+					<div class="highlight">
+						<code><pre>
+<span class="mk">&lt;form&gt;
+&lt;div <span class="class">class=</span><span class="display">&quot;form-group&quot;</span>&gt;</span>
+ <span class="mk">&lt;label</span><span class="class"> for=</span><span class="display">&quot;Username&quot;</span><span class="mk">&gt;</span>Username:<span class="mk">&lt;/label&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-group&quot;</span>&gt;</span>
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;text&quot;</span> <span class="class">name=</span><span class="display">&quot;Username&quot;</span><span class="class"> id=</span> <span class="display">&quot;Username&quot;</span> <span class="class">placeholder=</span> <span class="display">&quot;Username&quot;</span><span class="mk"> /&gt;</span>
+<span class="mk">&lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-group&quot;</span>&gt;</span>
+ <span class="mk">&lt;label</span><span class="class"> for=</span><span class="display">&quot;email&quot;</span><span class="mk">&gt;</span>Email:<span class="mk">&lt;/label&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-group&quot;</span>&gt;</span>
+<span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;text&quot;</span> <span class="class">name=</span><span class="display">&quot;email&quot;</span><span class="class"> id=</span> <span class="display">&quot;Email&quot;</span> <span class="class">placeholder=</span> <span class="display">&quot;Email&quot;</span><span class="mk"> /&gt;</span>
+<span class="mk">&lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-group&quot;</span>&gt;</span>
+ <span class="mk">&lt;label</span><span class="class"> for=</span><span class="display">&quot;Password&quot;</span><span class="mk">&gt;</span>Password:<span class="mk">&lt;/label&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-group&quot;</span>&gt;</span>
+<span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;text&quot;</span> <span class="class">name=</span><span class="display">&quot;Password&quot;</span><span class="class"> id=</span> <span class="display">&quot;Password&quot;</span> <span class="class">placeholder=</span> <span class="display">&quot;Password&quot;</span><span class="mk"> /&gt;</span>
+<span class="mk">&lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-group&quot;</span>&gt;</span>
+<span class="mk">&lt;p&gt;</span>What would be the best way to reach you by?<span class="mk">&lt;/p&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-check&quot;</span>&gt;</span>
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;radio&quot;</span><span class="class"> name=</span><span class="display">&quot;comm&quot; <span class="class">id=</span><span class="display">&quot;ways&quot; <span class="class">value=</span><span class="display">&quot;homephone&quot;</span><span class="mk">/&gt;</span></span></span>Homephone
+<span class="mk">&lt;/div&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-check&quot;</span>&gt;</span>
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;radio&quot;</span><span class="class"> name=</span><span class="display">&quot;comm&quot; <span class="class">id=</span><span class="display">&quot;ways&quot; <span class="class">value=</span><span class="display">&quot;cell&quot;</span><span class="mk">/&gt;</span></span></span>Cellphone
+<span class="mk">&lt;/div&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-check&quot;</span>&gt;</span>
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;radio&quot;</span><span class="class"> name=</span><span class="display">&quot;comm&quot; <span class="class">id=</span><span class="display">&quot;ways&quot; <span class="class">value=</span><span class="display">&quot;fax&quot;</span><span class="mk">/&gt;</span></span></span>Fax
+<span class="mk">&lt;/div&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-check&quot;</span>&gt;</span>
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;radio&quot;</span><span class="class"> name=</span><span class="display">&quot;comm&quot; <span class="class">id=</span><span class="display">&quot;ways&quot; <span class="class">value=</span><span class="display">&quot;email&quot;</span><span class="mk">/&gt;</span></span></span>Email
+<span class="mk">&lt;/div&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-check&quot;</span>&gt;</span>
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;radio&quot;</span><span class="class"> name=</span><span class="display">&quot;comm&quot; </span><span class="class">id=</span><span class="display">&quot;ways&quot; </span><span class="class">value=</span><span class="display">&quot;mail&quot;</span><span class="mk">/&gt;</span>Mail
+<span class="mk">&lt;/div&gt;
+&lt;/div&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-group&quot;</span>&gt;</span>
+ <span class="mk">&lt;button </span><span class="class">type=</span><span class="display">&quot;submit&quot;</span><span class="class"> class=</span><span class="display">&quot;btn primary-btn&quot;</span><span class="mk">&gt;</span>Submit<span class="mk">&lt;/button&gt;</span>
+<span class="mk">&lt;/div&gt;</span>
+<span class="mk">&lt;/form&gt;</span>
+</pre></code>
+					</div>
+
+			<h4>INLINE FORM ELEMENTS</h4>
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Example</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									<form>
+										<div class="form-group">
+											<label for="Username">Username:</label>
+											<input type="text" name="Username" id="Username" placeholder="Username" />
+										</div>
+									<br />
+										<div class="form-group">
+											<label for="Email">Email:</label>
+										  <input type="email" name="Email" id="Email" placeholder="Email" />
+										</div>
+									<br />
+										<div class="form-group">
+											<label for="Password">Password:</label>
+											<input type="password" name="Password" id="Password" placeholder="Password" />
+										</div>
+									<br />
+										<div class="form-group">
+											<p>What would be the best way to reach you by?</p>
+										</div>
+											<input type="radio" name="comm" id="ways" value="homephone"/>Homephone
+											<input type="radio" name="comm" value="cell"/>Cellphone
+											<input type="radio" name="comm" value="fax"/>Fax
+											<input type="radio" name="comm" value="email"/>Email
+											<input type="radio" name="comm" value="mail"/>Mail
+										<div class="form-group">
+											<button type="submit" class="btn primary-btn">Submit</button>
+										</div>
+								</form>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+						<div class="highlight">
+<code><pre>
+<span class="mk">&lt;form&gt;
+&lt;div <span class="class">class=</span><span class="display">&quot;form-group&quot;</span>&gt;</span>
+ <span class="mk">&lt;label</span><span class="class"> for=</span><span class="display">&quot;Username&quot;</span><span class="mk">&gt;</span>Username:<span class="mk">&lt;/label&gt;</span>
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;text&quot;</span> <span class="class">name=</span><span class="display">&quot;Username&quot;</span><span class="class"> id=</span> <span class="display">&quot;Username&quot;</span> <span class="class">placeholder=</span> <span class="display">&quot;Username&quot;</span><span class="mk"> /&gt;</span>
+<span class="mk">&lt;/div&gt;
+&lt;br /&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-group&quot;</span>&gt;</span>
+ <span class="mk">&lt;label</span><span class="class"> for=</span><span class="display">&quot;email&quot;</span><span class="mk">&gt;</span>Email:<span class="mk">&lt;/label&gt;</span>
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;text&quot;</span> <span class="class">name=</span><span class="display">&quot;email&quot;</span><span class="class"> id=</span> <span class="display">&quot;Email&quot;</span> <span class="class">placeholder=</span> <span class="display">&quot;Email&quot;</span><span class="mk"> /&gt;</span>
+<span class="mk">&lt;/div&gt;
+&lt;br /&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-group&quot;</span>&gt;</span>
+ <span class="mk">&lt;label</span><span class="class"> for=</span><span class="display">&quot;Password&quot;</span><span class="mk">&gt;</span>Password:<span class="mk">&lt;/label&gt;</span>
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;text&quot;</span> <span class="class">name=</span><span class="display">&quot;Password&quot;</span><span class="class"> id=</span> <span class="display">&quot;Password&quot;</span> <span class="class">placeholder=</span> <span class="display">&quot;Password&quot;</span><span class="mk"> /&gt;</span>
+<span class="mk">&lt;/div&gt;
+&lt;br /&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-group&quot;</span>&gt;</span>
+<span class="mk">&lt;p&gt;</span>What would be the best way to reach you by?<span class="mk">&lt;/p&gt;</span>
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;radio&quot;</span><span class="class"> name=</span><span class="display">&quot;comm&quot; <span class="class">id=</span><span class="display">&quot;ways&quot; <span class="class">value=</span><span class="display">&quot;homephone&quot;</span><span class="mk">/&gt;</span></span></span>Homephone
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;radio&quot;</span><span class="class"> name=</span><span class="display">&quot;comm&quot; <span class="class">id=</span><span class="display">&quot;ways&quot; <span class="class">value=</span><span class="display">&quot;cell&quot;</span><span class="mk">/&gt;</span></span></span>Cellphone
+<span class="mk">&lt;/div&gt;</span>
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;radio&quot;</span><span class="class"> name=</span><span class="display">&quot;comm&quot; <span class="class">id=</span><span class="display">&quot;ways&quot; <span class="class">value=</span><span class="display">&quot;fax&quot;</span><span class="mk">/&gt;</span></span></span>Fax
+<span class="mk">&lt;/div&gt;</span>
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;radio&quot;</span><span class="class"> name=</span><span class="display">&quot;comm&quot; <span class="class">id=</span><span class="display">&quot;ways&quot; <span class="class">value=</span><span class="display">&quot;email&quot;</span><span class="mk">/&gt;</span></span></span>Email
+<span class="mk">&lt;/div&gt;</span>
+ <span class="mk">&lt;input</span><span class="class"> type=</span><span class="display">&quot;radio&quot;</span><span class="class"> name=</span><span class="display">&quot;comm&quot; </span><span class="class">id=</span><span class="display">&quot;ways&quot; </span><span class="class">value=</span><span class="display">&quot;mail&quot;</span><span class="mk">/&gt;</span>Mail
+<span class="mk">&lt;/div&gt;</span>
+<span class="mk">&lt;div <span class="class">class=</span><span class="display">&quot;form-group&quot;</span>&gt;</span>
+ <span class="mk">&lt;button </span><span class="class">type=</span><span class="display">&quot;submit&quot;</span><span class="class"> class=</span><span class="display">&quot;btn primary-btn&quot;</span><span class="mk">&gt;</span>Submit<span class="mk">&lt;/button&gt;</span>
+<span class="mk">&lt;/div&gt;</span>
+<span class="mk">&lt;/form&gt;</span>
+</pre></code>
+</div>
+
+</body>
+
+<div class="footer-extension">
+  <div class="footer-image">
+    <div class="dawg">
+      <div class="footer-meeting">
+        <div id="footer-logo"></div>
+          <a name="contact">
+            <h5 class="meeting-title">MEETING LOCATION:</h5>
+          </a>
+            Fine Arts Bldg. Rm#122 <br/>
+            Every Other Thursday @3:30pm
+
+        <div class="social-link">
+          <a href="https://twitter.com/prssauta?lang=en"><div class="social-tw"></div></a>
+          <a href="https://www.facebook.com/PRSSAUTA/"><div class="social-fb"></div></a>
+        </div>
+      </div>
+      <div class="links">
+        <a href="#events">Events</a>
+        <a href="officers">Officers</a>
+        <a href="blog">Blog</a>
+
+    <hr align="left" width="30%">
+
+        <a href="#">Parents</a>
+        <a href="#">Donations</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-footer">
+     © 2017 by The University of Texas at Arlington Public Relations Student Society of America
+  </div>
+</div>
+
+</html>

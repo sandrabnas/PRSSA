@@ -3,8 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../CSS/base.css">
     <title>PRSSA Website</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   <!-- <link rel="stylesheet" type="text/css" href="/PRSSA/PRSSA/CSS/demo.css" />--> <!--not as important-->
+<link rel="stylesheet" type="text/css" href="/PRSSA/PRSSA/CSS/style.css" /><!--not as immportant-->
+<link rel="stylesheet" type="text/css" href="/PRSSA/PRSSA/CSS/elastislide.css" />
+<link rel="stylesheet"  type="js">
+<script src="../CSS/base.js"></script>
+<noscript>
+  <style>
+    .es-carousel ul{
+      display:block;
+    }
+  </style>
+</noscript>
+<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+  <div class="rg-image-wrapper">
+    {{if itemsCount > 1}}
+      <div class="rg-image-nav">
+        <a href="#" class="rg-image-nav-prev">Previous Image</a>
+        <a href="#" class="rg-image-nav-next">Next Image</a>
+      </div>
+    {{/if}}
+    <div class="rg-image"></div>
+    <div class="rg-loading"></div>
+    <div class="rg-caption-wrapper">
+      <div class="rg-caption" style="display:none;">
+        <p></p>
+      </div>
+    </div>
+  </div>
+</script>
   </head>
 
   <body>
@@ -21,7 +53,7 @@
 
         <div class="hamburger-menu-container">
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">  <i class="fas fa-bars"></i></button>
+              <button onclick="myFunction()" id="dropbtn" class="dropbtn-style">  <i id="dropbtn" class="fas fa-bars"></i></button>
                   <div id="myDropdown" class="dropdown-content">
                       <a href="#events">EVENTS</a>
                       <a href="#officers">OFFICERS</a>
@@ -112,7 +144,7 @@
 
 </body>
 
-
+<!--
 <div class="footer-extension">
 
   <div class="footer-image">
@@ -146,4 +178,5 @@
      © 2017 by The University of Texas at Arlington Public Relations Student Society of America
   </div>
 </div>
+-->
 </html>

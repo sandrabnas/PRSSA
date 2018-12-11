@@ -52,13 +52,14 @@ html {
       -webkit-box-sizing: inherit;
          -moz-box-sizing: inherit;
               box-sizing: inherit;
-
+    
   }
 body {
   margin: 0;
   padding: 0;
   font-size: 12px;
   font-family: 'Muli', sans-serif;
+  overflow-x: hidden;
 
 }
 
@@ -525,6 +526,7 @@ p.parent-div {
 .officer-pic {
     position: relative;
     width: 50%;
+    overflow: hidden;
 }
 
 .officer-img {
@@ -545,22 +547,23 @@ p.parent-div {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+
 }
 
 .officer-pic:hover .officer-img {
-  opacity: 0.3;
+  opacity: 0.3;  
 }
 
 .officer-pic:hover .officer-role {
-  opacity: 0.8;
+  opacity: 0.8;  
 }
 
 @media screen and (max-width: 1000px){
   .officer-role {
-    pointer-events: none;
+
 }
 .officer-pic{
-  pointer-events: none;
+  
 }
 }
 .text {
@@ -583,8 +586,7 @@ p.parent-div {
 
 @media screen and (max-width: 1000px) {
   .officers-title {
-    width: 100%;
-    padding: 1em 0em 1em 0em;
+
   }
 }
 
@@ -1249,6 +1251,13 @@ p.parent-div {
 
 /*===== Ending of Index Page ======*/
 /*===== Footer ======*/
+@media screen and (max-width: 1000px){
+#parent-footer{
+  position: relative;
+  bottom: -50em;
+}
+}
+
 .footer-extension {
   height: 300px;
   width: auto;

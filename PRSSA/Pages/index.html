@@ -7,11 +7,11 @@
     <link rel="stylesheet" type="text/css" href="../CSS/base.css">
     <title>PRSSA Website</title>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
    <!-- <link rel="stylesheet" type="text/css" href="/PRSSA/PRSSA/CSS/demo.css" />--> <!--not as important-->
 <link rel="stylesheet" type="text/css" href="/PRSSA/PRSSA/CSS/style.css" /><!--not as immportant-->
 <link rel="stylesheet" type="text/css" href="/PRSSA/PRSSA/CSS/elastislide.css" />
-
+<script src="../CSS/base.js"></script>
 <noscript>
   <style>
     .es-carousel ul{
@@ -73,27 +73,7 @@
               </div>
 
 
-<script>function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
 
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('#dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-
-
-</script>
 
       <div class="prssa-bg">
         <div class="prssa-logo"></div>
@@ -157,27 +137,26 @@ window.onclick = function(event) {
               </div>
 
 
-<script>// Get DOM Elements
+<script>
     const modal = document.querySelector('#my-modal');
     const modalBtn = document.getElementById('modal-btn');
     const closeBtn = document.querySelector('.close');
 
-    // Events
+
     modalBtn.addEventListener('click', openModal);
     closeBtn.addEventListener('click', closeModal);
     window.addEventListener('click', outsideClick);
 
-    // Open
+
     function openModal() {
       modal.style.display = 'block';
     }
 
-    // Close
+
     function closeModal() {
       modal.style.display = 'none';
     }
 
-    // Close If Outside Click
     function outsideClick(e) {
       if (e.target == modal) {
         modal.style.display = 'none';
@@ -268,33 +247,81 @@ window.onclick = function(event) {
   </a>
 
   <div class="events-container">
-    <div class="hover-color" id="event-box1">
+    
+
+
+
+    <div id="list-container">
+        <div class='list'>
+            <div class='item'>
+                  <div class="hover-color" id="event-box1">
       <div class="event-current"><span class="overline"><h4 class="event-current">MARCH</h4></span><br/><h2 class="event-current">29</h2>
       </div>
       <div class="event-detail">Electronic entries due for Bateman Case Study Competition</div>
     </div>
-    <div class="hover-color" id="event-box2">
+            </div>
+            <div class='item'>
+              <div class="hover-color" id="event-box2">
       <div class="event-future"><span class="overline"><h4 class="event-month">APRIL</h4></span><br/><h2 class="event-month">04</h2>
       </div>
       <div class="event-detail">Bateman Competition First Round Judging</div>
     </div>
-    <div class="hover-color" id="event-box3">
+            </div>
+            <div class='item'>
+                  <div class="hover-color" id="event-box3">
       <div class="event-future"><span class="overline"><h4 class="event-month">APRIL</h4></span><br/><h2 class="event-month">17</h2>
       </div>
       <div class="event-detail">Bateman Competition First Round Judging</div>
     </div>
-    <div class="hover-color" id="event-box4">
+            </div>
+            <div class="item">
+                  <div class="hover-color" id="event-box4">
       <div class="event-future"><span class="overline"><h4 class="event-month">APRIL</h4></span><br/><h2 class="event-month">29</h2>
       </div>
       <div class="event-detail"> Twitter Chat: Transitioning from PRSSA to PRSA</div>
     </div>
+            </div>
+            
+        </div>
+      
+    </div>
+  
+
+    
   </div>
+
 
   <div style="text-align:center;">
     <div class="event-btn">
     <button class="btn left" id="event-left-button">&lt;</button><button class="btn right" id="event-right-button">&gt;</button>
     </div>
   </div>
+
+<script>
+  $(document).ready(function() {
+    
+    var $item = $('div.item'), //Cache your DOM selector
+        visible = 2, //Set the number of items that will be visible
+        index = 0, //Starting index
+        endIndex = ( $item.length / visible ) - 1; //End index
+    
+    $('#event-right-button').click(function(){
+        if(index < endIndex ){
+          index++;
+          $item.animate({'left':'-=500px'});
+        }
+    });
+    
+    $('#event-left-button').click(function(){
+        if(index > 0){
+          index--;            
+          $item.animate({'left':'+=500px'});
+        }
+    });
+    
+});
+</script>
+
 <!--
   <script>
 

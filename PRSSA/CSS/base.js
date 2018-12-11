@@ -31,6 +31,14 @@ window.onclick = function(event) {
       }
     }
   }
-}
+};
 
 //end dropdown menu
+
+//start events slider
+
+//end events slider
+
+//start modal
+
+//end modal

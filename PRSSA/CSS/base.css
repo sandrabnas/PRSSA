@@ -984,9 +984,18 @@ p.parent-div {
 /*-------------------- GALLERY ----------------------*/
 
 
-@media screen and (max-width: 750px){
-  .gallery-container{
+
+.gallery-content {
+  margin: 0 100px;
+}
+
+@media screen and (max-width: 500px){
+  .gallery-content{
+    margin: 0 40px;
+  }
+  .row {
     display: none;
+  }
   }
 }
 

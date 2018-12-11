@@ -412,13 +412,7 @@ h5 {
   -webkit-align-items: center;
 }
 
-@media screen and (max-width: 1200px) {
-  .main-pic {
-    width: 100%;
-    padding: 3em;
 
-  }
-}
 
 .main-pic a {
   color: white;
@@ -1807,12 +1801,7 @@ p.parent-div {
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .main-pic {
-    width: 100%;
-    padding: 3em;
-  }
-}
+
 
 @media screen and (max-width: 1000px) {
   .main-description {
@@ -1950,7 +1939,13 @@ p.parent-div {
       width: 100%;
     }
   }
-
+@media screen and (max-width: 1250px) {
+  .main-pic {
+    width: 100%;
+    padding: 3em;
+  }
+}
+ 
 /* end media queries*/
 
 

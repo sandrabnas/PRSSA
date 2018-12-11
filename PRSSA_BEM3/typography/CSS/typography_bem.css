@@ -1,0 +1,544 @@
+@charset "UTF-8";
+/*
+	Author: Angie Dinh
+	Description: Typography_BEM
+*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+
+
+.headings {
+background-color: grey;
+height: 300px;
+display: flex;
+-webkit-display: flex;
+flex-direction: column;
+-webkit-flex-direction: column;
+justify-content: flex-end;
+-webkit-justify-content: flex-end;
+}
+
+
+.logo {
+	text-indent: -9999px;
+	background: url("../../logo.png") no-repeat 0 0 /contain transparent;
+	height: 440px;
+	width: 620px;
+}
+
+
+
+/*============Navigation==========*/
+.nav {
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.651);
+  height: 60px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+  top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-display: flex;
+  -webkit-justify-content: space-between;
+  -webkit-align-items: center;
+}
+
+.nav, .nav a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  margin: auto;
+}
+
+.nav a:hover {
+  color: #692917;
+}
+
+.nav-links a {
+  padding: 0 40px;
+}
+
+.uta-logo {
+  height: 30px;
+  width: 30px;
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/uta.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.background-img {
+  height: 830px;
+  width: auto;
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/networking.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.follow {
+  font-size: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-display: flex;
+  -webkit-align-items: flex-start;
+}
+
+.follow a {
+  padding-left: 5px;
+  height: 15px;
+  width: 15px;
+}
+
+#twitter {
+  height: 15px;
+  width: 15px;
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/twitter-white.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  -webkit-display: inline-block;
+}
+
+#twitter:hover {
+  background-image: url("https://img.icons8.com/metro/104/00447c/twitter.png");
+}
+
+#facebook {
+  height: 15px;
+  width: 15px;
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/fb-white.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  -webkit-display: inline-block;
+}
+
+#facebook:hover {
+  background-image: url("https://img.icons8.com/metro/98/00447c/facebook.png");
+}
+
+/*============End Navigation==========*/
+
+.body {
+	margin: 1rem;
+	padding: 1rem;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	color: #666666;
+	font-family: 'Muli', sans-serif;
+	background-color: #eae9ef;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+
+h3, h4 {
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+}
+
+h1 {
+	font-size: 5.063em;
+	line-height: 7rem;
+	margin: 1rem auto 2rem;
+	font-weight: 700;
+	font-weight: bold;
+	color: #00447c;
+}
+
+h2 {
+	font-size: 3.375em;
+	line-height: 4.5rem;
+	margin: 1rem auto 2rem;
+	font-weight: 300;
+	color: #d99b64;
+}
+
+h3 {
+	font-size: 2.25em;
+	line-height: 3rem;
+	margin: 1rem auto 2rem;
+	font-weight: 300;
+	color: #692917;
+}
+
+h4 {
+	font-size: 1.5em;
+	line-height: 2rem;
+	margin: 1rem auto 2rem;
+	font-weight: 300;
+}
+
+/* **** Highlight code Section ===========================*/
+.highlight {
+	background-color: #E7DFDF;
+	border: 1px solid #fafafa;
+	padding: 1em 0;
+	margin: 1em 0;
+	box-sizing: border-box;
+	width: 70%;
+}
+
+
+.highlight .class	{
+	color: #3498DB;
+	font-style: italic;
+}
+
+.highlight pre {
+	display: block;
+	overflow: auto;
+	padding: 0 1em;
+}
+
+.highlight .mk {
+	color: #21618C;
+}
+
+.highlight .mk .display {
+	color: #EC7063;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 1em 0;
+	padding: 1em 0;
+	width: 70%;
+}
+
+.table tr th {
+	color: #FFFFFF;
+	background-color: grey;
+}
+
+
+
+
+
+.table td,
+.table th {
+	border: 1px solid #cccccc;
+	padding: 1em;
+}
+
+
+.table th {
+	font-family: 'Merriweather', serif;
+	font-size:  0.8em;
+	line-height: 1em;
+	color: #888888;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+p {
+	line-height: 1.25em;
+	margin: 1rem 0 2rem;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+i, em {
+	font-style: italic;
+}
+
+mark {
+	background-color: orange;
+}
+
+q {
+	quotes: "\00AB" "\00BB" "\2018" "\2019";
+}
+
+.blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+.blockquote p {
+	font-size: 1.25em;
+	line-height: 1.5rem;
+	color: #000000;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0;
+	padding: 0;
+}
+
+.blockquote .blockquote-footer {
+	margin-left: 1rem;
+	font-size: 0.8em;
+}
+
+.blockquote .blockquote-footer:before {
+	content: '-';
+	padding-right: 1rem;
+}
+
+.blockquote .blockquote-footer cite {
+	font-style: italic;
+	color: #999999;
+}
+
+.blockquote.text-right {
+	text-align: right;
+}
+
+.blockquote.text-right .blockquote-footer:before {
+	content: '-';
+	padding-right: 0;
+}
+
+.blockquote.text-right .blockquote-footer:after {
+	content: '-';
+	padding-left: 1em;
+	margin-right: 1em;
+}
+
+/*======================Customized===========================================*/
+.h1 {
+	font-size: 6.554em;
+	line-height: 7rem;
+	margin: 1rem auto 2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #00447c;
+	font-family: 'Merriweather', serif;
+}
+
+.h2 {
+	font-size: 4.096em;
+	line-height: 4.5rem;
+	margin: 1rem auto 2rem;
+	font-weight: 300;
+	color: #d99b64;
+	font-family: 'Merriweather', serif;
+}
+
+.h3 {
+	font-size: 2.56em;
+	line-height: 3rem;
+	margin: 1rem auto 2rem;
+	font-weight: 300;
+	color: #692917;
+	font-family: 'Merriweather', serif;
+}
+
+.h4 {
+	font-size: 1.6em;
+	line-height: 2rem;
+	margin: 1rem auto 2rem;
+	font-weight: 300;
+	color: #000000;
+	font-family: 'Merriweather', serif;
+}
+
+/*======================Customized==========================================*/
+
+/*=========================Dislay Headings===================================*/
+
+h1.display-1 {
+	color: #00447c;
+	font-family: 'Merriweather', serif;
+}
+
+h2.display-2 {
+	color: #d99b64;
+	font-family: 'Merriweather', serif;
+}
+
+h3.display-3 {
+	color: #692917;
+	font-family: 'Merriweather', serif;
+}
+
+h4.display-4 {
+	color: #d99b64;
+	font-family: 'Merriweather', serif;
+}
+
+/*=========================Dislay Headings===================================*/
+
+
+
+.blockquote.text-center, blockquote-footer 	{
+	text-align: center;
+}
+
+.blockquote.text-right	{
+	text-align: right;
+}
+
+.list-unstyle	{
+	list-style: none;
+	margin: 0;
+}
+
+.list-inline li	{
+	padding-right: 5em;
+	display: inline-block;
+	list-style: none;
+}
+
+.toc	{
+	top: 5;
+	right: 0;
+	position: fixed;
+	list-style-type: none;
+}
+
+/*===== Footer ======*/
+.footer-extension {
+  height: 350px;
+  width: auto;
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/network.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.footer-image {
+  height: 330px;
+  width: auto;
+}
+
+.dawg {
+  font-size: 15px;
+  padding-left: 230px;
+  padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-display: flex;
+  -webkit-justify-content: flex-start;
+}
+
+.footer-meeting {
+  color: #692917;
+  background-color: white;
+  text-align: left;
+  line-height: 30px;
+}
+
+.meeting-title {
+  text-decoration: underline;
+  color: #692917;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+#footer-logo {
+  background-image: url("http://ctec4350.mpd0269.uta.cloud/prssa-images/prssa.png");
+  height: 90px;
+  width: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.footer-footer {
+  text-align: center;
+  color: #692917;
+  height: 20px;
+  width: inherit;
+  position: static;
+  bottom: 0;
+  right: auto;
+  left: auto;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 35px;
+  padding-left: 200px;
+}
+
+.links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #692917;
+}
+
+.links a:hover {
+  color: #00447c;
+}
+
+.social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-display: flex;
+  padding-top: 10px;
+}
+
+
+.social-link a {
+  width: 50px;
+  height: 50px;
+}
+
+.social-fb {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  background-image: url("https://img.icons8.com/metro/98/692917/facebook.png");
+  height: 29px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.social-fb:hover {
+  background-image: url("https://img.icons8.com/metro/98/00447c/facebook.png");
+}
+
+.social-tw {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-image: url("https://img.icons8.com/metro/104/692917/twitter.png");
+  height: 30px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.social-tw:hover {
+  background-image: url("https://img.icons8.com/metro/104/00447c/twitter.png");
+}
+
+/*===== End of Footer ======*/
